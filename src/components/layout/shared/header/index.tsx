@@ -1,13 +1,42 @@
+'use client'
+import {
+  NavigationListItem,
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from '@/components/ui/navigation-menu'
 import { Search, ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
-import React from 'react'
 
 export default function Header() {
+  const components: { title: string; href: string; description: string }[] = [
+    {
+      title: 'Alert Dialog',
+      href: '/docs/primitives/alert-dialog',
+      description:
+        'A modal dialog that interrupts the user with important content and expects a response.',
+    },
+    {
+      title: 'Hover Card',
+      href: '/docs/primitives/hover-card',
+      description:
+        'For sighted users to preview content available behind a link.',
+    },
+    {
+      title: 'Progress',
+      href: '/docs/primitives/progress',
+      description:
+        'Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.',
+    },
+  ]
+
   return (
     <div className="w-full flex flex-col">
       <div className="w-full bg-custom-gray">
         <div className="container p-2 pb-4">
-          <div className="w-full flex flex-col sm:flex-row items-center justify-evenly gap-4">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
             <Image
               src="/logo.png"
               alt="Logo crispmix"
@@ -42,7 +71,76 @@ export default function Header() {
         </div>
       </div>
       <div className="bg-custom-dark text-white p-2">
-        <div className="container p-2"></div>
+        <div className="container flex items-center gap-1">
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem className="text-white">
+                <NavigationMenuTrigger className="bg-transparent text-white">
+                  Tintas
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                    {components.map((component) => (
+                      <NavigationListItem
+                        key={component.title}
+                        title={component.title}
+                        href={component.href}
+                      >
+                        {component.description}
+                      </NavigationListItem>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem className="text-white">
+                <NavigationMenuTrigger className="bg-transparent text-white">
+                  Pigmentos
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                    {components.map((component) => (
+                      <NavigationListItem
+                        key={component.title}
+                        title={component.title}
+                        href={component.href}
+                      >
+                        {component.description}
+                      </NavigationListItem>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem className="text-white">
+                <NavigationMenuTrigger className="bg-transparent text-white">
+                  Aditivos
+                </NavigationMenuTrigger>
+                <NavigationMenuContent>
+                  <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+                    {components.map((component) => (
+                      <NavigationListItem
+                        key={component.title}
+                        title={component.title}
+                        href={component.href}
+                      >
+                        {component.description}
+                      </NavigationListItem>
+                    ))}
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+        </div>
       </div>
     </div>
   )
