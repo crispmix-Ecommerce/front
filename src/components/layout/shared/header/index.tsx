@@ -6,13 +6,13 @@ export default function Header() {
   return (
     <div className="w-full flex flex-col">
       <div className="w-full bg-custom-gray">
-        <div className="container p-2 pb-4">
+        <div className="container p-4 pb-4">
           <div className="w-full flex flex-col sm:flex-row items-center justify-evenly gap-4">
             <Image
               src="/logo.png"
               alt="Logo crispmix"
-              width={150}
-              height={150}
+              width={222}
+              height={170}
             />
 
             <div className="w-full max-w-[768px] flex justify-center">
@@ -31,10 +31,16 @@ export default function Header() {
 
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
-                <div className="w-5 h-5 rounded-full bg-blue-300 text-xs flex items-center justify-center text-white">
+                <div
+                  className="w-5 h-5 rounded-full text-xs flex items-center justify-center text-white"
+                  style={{ backgroundColor: '#a6c7f1' }}
+                >
                   19
                 </div>
-                <ShoppingCart size={16} />
+                <ShoppingCart
+                  size={24}
+                  fill="bg-custom-dark "
+                />
               </div>
               <span className="font-semibold">Carrinho</span>
             </div>

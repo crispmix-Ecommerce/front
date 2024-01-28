@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="bg-custom-dark text-white p-2 py-4 grid grid-rows-1 grid-cols-5 gap-4 text-sm">
-      <div />
+    <section className="bg-custom-dark text-white p-2 py-4 grid grid-rows-1 lg:grid-cols-5 gap-4 text-sm  ">
       <div className="flex flex-col gap-4">
         <p className="font-semibold">Atendimento</p>
         <div className="flex flex-col">
@@ -38,6 +37,6 @@ export default function Footer() {
           <p>Tinta Crispmix Mix</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
