@@ -1,6 +1,7 @@
 import { Search, ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import { NavigationSubMenu } from '../sub-header'
 
 export default function Header() {
   return (
@@ -47,8 +48,8 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="bg-custom-dark text-white p-2">
-        <div className="container p-2"></div>
+      <div className="bg-custom-dark p-2 flex items-center justify-center">
+        <NavigationSubMenu />
       </div>
     </div>
   )
