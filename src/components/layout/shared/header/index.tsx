@@ -32,10 +32,7 @@ export default function Header() {
 
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
-                <div
-                  className="w-5 h-5 rounded-full text-xs flex items-center justify-center text-white"
-                  style={{ backgroundColor: '#a6c7f1' }}
-                >
+                <div className="w-5 h-5 rounded-full text-xs flex items-center justify-center text-white bg-custom-blue">
                   19
                 </div>
                 <ShoppingCart

@@ -22,6 +22,10 @@ const config = {
         custom: {
           dark: '#363941',
           gray: '#D0D0D0',
+          green: '#AFD4AD',
+          blue: '#9CC6F5',
+          yellow: '#F6D08B',
+          pink: '#C395D2',
         },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

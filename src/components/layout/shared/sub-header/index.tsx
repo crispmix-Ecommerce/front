@@ -46,12 +46,12 @@ export function NavigationSubMenu() {
     <NavigationMenu>
       <NavigationMenuList className="flex justify-center">
         <NavigationMenuItem>
-          <NavigationMenuTrigger style={{ backgroundColor: '#B1D5AE' }}>
+          <NavigationMenuTrigger className="bg-custom-green">
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
-                <FlaskConical size={24} />
+                <FlaskConical size={20} />
               </div>
-              <span className="font-semibold">Aditivos</span>
+              <span>Aditivos</span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -69,12 +69,12 @@ export function NavigationSubMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger style={{ backgroundColor: '#C294D2' }}>
+          <NavigationMenuTrigger className="bg-custom-pink">
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
-                <Palette size={24} />
+                <Palette size={20} />
               </div>
-              <span className="font-semibold">Pigmentos</span>
+              <span>Pigmentos</span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -92,12 +92,12 @@ export function NavigationSubMenu() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger style={{ backgroundColor: '#F6D08B' }}>
+          <NavigationMenuTrigger className="bg-custom-yellow">
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
-                <PaintBucket size={24} />
+                <PaintBucket size={20} />
               </div>
-              <span className="font-semibold">Tintas</span>
+              <span>Tintas</span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
