@@ -9,15 +9,12 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 
-const imageUrls = [
-  '/banner-1.jpg',
-  '/banner-1.jpg',
-  '/banner-1.jpg',
-  '/banner-1.jpg',
-  '/banner-1.jpg',
-]
+interface CardProductProps {
+  imageUrls: string[]
+  width?: number | null
+}
 
-export default function Banner() {
+export default function Banner({ imageUrls, width }: CardProductProps) {
   return (
     <Carousel className="w-full">
       <CarouselContent>
@@ -27,7 +24,7 @@ export default function Banner() {
               <Image
                 src={imageUrl}
                 alt={`Image ${index + 1}`}
-                width={1000}
+                width={width ?? 1200}
                 height={300}
               />
             </div>

@@ -2,6 +2,7 @@ import { Search, ShoppingCart } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 import { NavigationSubMenu } from '../sub-header'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -9,12 +10,14 @@ export default function Header() {
       <div className="w-full bg-custom-gray">
         <div className="container p-4 pb-4">
           <div className="w-full flex flex-col sm:flex-row items-center justify-evenly gap-4">
-            <Image
-              src="/logo.png"
-              alt="Logo crispmix"
-              width={222}
-              height={170}
-            />
+            <Link href="/">
+              <Image
+                src="/logo.png"
+                alt="Logo crispmix"
+                width={222}
+                height={170}
+              />
+            </Link>
 
             <div className="w-full max-w-[768px] flex justify-center">
               <div className="w-full bg-white py-2 px-4 rounded-lg flex items-center">

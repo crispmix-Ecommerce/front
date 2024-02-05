@@ -4,11 +4,18 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 
 export default function HomePage() {
+  const imageUrls = [
+    '/banner-1.jpg',
+    '/banner-1.jpg',
+    '/banner-1.jpg',
+    '/banner-1.jpg',
+    '/banner-1.jpg',
+  ]
   return (
     <section className="flex flex-col items-center p-16 gap-4 ">
       <div className="w-full">Home / E-Commerce</div>
       <div>
-        <Banner></Banner>
+        <Banner imageUrls={imageUrls}></Banner>
       </div>
       <div className="font-semibold">Mais populares</div>
       <div className="flex flex-wrap justify-center p-6 gap-5">
