@@ -54,7 +54,7 @@ export default function ProductDetailPage() {
               </form>
             </div>
             <Button className="mt-8 p-8 w-full bg-custom-blue hover:bg-custom-green">
-              Comprar
+              Adicionar ao Carrinho
             </Button>
           </div>
         </div>
