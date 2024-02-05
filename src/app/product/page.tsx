@@ -2,6 +2,7 @@
 
 import Banner from '@/components/layout/shared/banner'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import React from 'react'
 
 export default function ProductDetailPage() {
@@ -53,9 +54,11 @@ export default function ProductDetailPage() {
                 </select>
               </form>
             </div>
-            <Button className="mt-8 p-8 w-full bg-custom-blue hover:bg-custom-green">
-              Adicionar ao Carrinho
-            </Button>
+            <Link href="/cart">
+              <Button className="mt-8 p-8 w-full bg-custom-blue hover:bg-custom-green">
+                Adicionar ao Carrinho
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
