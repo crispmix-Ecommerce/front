@@ -54,7 +54,6 @@ export default function ProductList() {
             title={product.title}
             type={product.type}
             price={product.price}
-            quantity={0}
           />
         ))}
       </div>

@@ -16,7 +16,6 @@ interface CardProductProps {
   title: string
   type: string
   price: string
-  quantity: number
 }
 
 export function CardProduct({ src, title, type, price }: CardProductProps) {
