@@ -1,0 +1,1283 @@
+[
+    {
+        "id": 1,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "aditivos",
+        "name": "Ligante",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 2,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "aditivos",
+        "name": "Espessante",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 3,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "aditivos",
+        "name": "Fixador",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 4,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "aditivos",
+        "name": "Amaciante",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 5,
+        "subCategory": "PLASTISOL",
+        "category": "aditivos",
+        "name": "Amaciante Plastisol",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 6,
+        "subCategory": "PLASTISOL",
+        "category": "aditivos",
+        "name": "Espessante plastisol",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 7,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Amarelo canário",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 8,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Preto",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 9,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Vermelho vivo",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 10,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Amarelo flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 11,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Rosa flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 12,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Verde flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 13,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Marinho",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 14,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Azul Royal",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 15,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Carmim de alta",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 16,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Carmim de baixa",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 17,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "pigmentos",
+        "name": "Azul flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 18,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Amarelo flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 19,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Rosa flúor",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 20,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Vermelho",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 21,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Turquesa",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 22,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Verde bandeira",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 23,
+        "subCategory": "PLASTISOL",
+        "category": "pigmentos",
+        "name": "Preto",
+        "condition": "liquido",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 24,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Branco tws lycra",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 25,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Mix lycra",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 26,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Clear lycra",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 27,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Cola de flocado",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 28,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Clear perolado incolor",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 29,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Clear cintilante prata",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 30,
+        "subCategory": "BASE DE ÁGUA",
+        "category": "tintas",
+        "name": "Clear cintilante ouro",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 31,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Base relevo incolor",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 32,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Gel incolor cristal",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 33,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Plastisol branco fosco",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 34,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Relevo 3D branco",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 35,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Relevo 3D mix",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 36,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Gel silicon incolor",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 37,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Plastisol mix",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 38,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Plastisol clear",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 39,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Plastflock (Cola de flocado plastisol)",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    },
+    {
+        "id": 40,
+        "subCategory": "PLASTISOL",
+        "category": "tintas",
+        "name": "Base relevo branco",
+        "condition": "pasta",
+        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "quantity": 20,
+        "images": [
+    {
+        "firstImage": "https://picsum.photos/350",
+        "secondImage": "https://picsum.photos/350",
+        "thirdImage": "https://picsum.photos/350",
+        "lastImage": "https://picsum.photos/350"
+    }
+],
+"option": [
+    {
+        "unitMeasure": "1 Kg",
+        "price": 20.15
+    },
+    {
+        "unitMeasure": "5 Kg",
+        "price": 100.75
+    },
+    {
+        "unitMeasure": "10 Kg",
+        "price": 201.50
+    }
+]
+
+    }
+]
+

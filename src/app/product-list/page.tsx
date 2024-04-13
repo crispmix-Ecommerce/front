@@ -46,7 +46,7 @@ export default function ProductList() {
       <div className="w-full">Home / E-Commerce</div>
       <div className="w-full font-semibold">Title</div>
       <div className="w-full">Description List</div>
-      <div className="flex flex-wrap justify-center p-6 gap-5">
+      {/* <div className="flex flex-wrap justify-center p-6 gap-5">
         {productData.map((product, index) => (
           <CardProduct
             key={index}
@@ -56,7 +56,7 @@ export default function ProductList() {
             price={product.price}
           />
         ))}
-      </div>
+      </div> */}
       <div>
         {/* TODO: Function get more item list */}
         <Button>Ver mais +</Button>

@@ -1,65 +1,80 @@
-import Banner from '@/components/layout/shared/banner'
-import { CardProduct } from '@/components/layout/shared/card'
-import { Button } from '@/components/ui/button'
-import React from 'react'
+'use client'
+import React, { useState, useEffect } from 'react';
+import Banner from '@/components/layout/shared/banner';
+import { CardProduct } from '@/components/layout/shared/card';
+import { Button } from '@/components/ui/button';
+import Product from '@/models/ProductHome'; 
+
+interface ProductData {
+  name: string;
+  option: { price: number }[];
+  images: { firstImage: string }[];
+  category: string;
+}
 
 export default function HomePage() {
-  const imageUrls = [
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+  const [products, setProducts] = useState<Product[]>([]); 
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/products.json');
+        if (!response.ok) {
+          throw new Error('Failed to fetch');
+        }
+        const data: ProductData[] = await response.json(); 
+        const formattedProducts = data.slice(0, 20).map((productData: ProductData) => {
+          return new Product(
+            productData.name,
+            productData.option,
+            productData.images,
+            productData.category
+          );
+        });
+        setProducts(formattedProducts);
+        setLoading(false);
+      } catch (error) {
+        setError((error as Error).message);
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
+
+  const imagesUrls = [
     '/banner-1.jpg',
     '/banner-1.jpg',
     '/banner-1.jpg',
     '/banner-1.jpg',
     '/banner-1.jpg',
-  ]
+  ];
+
   return (
     <section className="flex flex-col items-center p-16 gap-4 ">
       <div className="w-full">Home / E-Commerce</div>
       <div>
-        <Banner imageUrls={imageUrls}></Banner>
+        <Banner imageUrls={imagesUrls}></Banner>
       </div>
       <div className="font-semibold">Mais populares</div>
       <div className="flex flex-wrap justify-center p-6 gap-5">
-        <CardProduct
-          src={'/ProdutoAditivo.png'}
-          title={'Hyper Fusion Elixir'}
-          type={'Aditivo'}
-          price={'19,99'}
-        ></CardProduct>
-        <CardProduct
-          src={'/ProdutoPigmento.png'}
-          title={'Quantum Chroma Essence'}
-          type={'Pigmento a base de água'}
-          price={'24,99'}
-        ></CardProduct>
-        <CardProduct
-          src={'/ProdutoTintasBagua.png'}
-          title={'Aqua Nebula Paint'}
-          type={'Tinta a base de água'}
-          price={'14,99'}
-        ></CardProduct>
-        <CardProduct
-          src={'/ProdutoTintasPVC.png'}
-          title={'Galactic PVC Paint'}
-          type={'Tinta Plastisol'}
-          price={'29,99'}
-        ></CardProduct>
-        <CardProduct
-          src={'/ProdutoAditivo.png'}
-          title={'Infinity Boost Additive'}
-          type={'Aditivo'}
-          price={'39,99'}
-        ></CardProduct>
-        <CardProduct
-          src={'/ProdutoPigmento.png'}
-          title={'Celestial Glow Pigment'}
-          type={'Pigmento Plastisol'}
-          price={'18,99'}
-        ></CardProduct>
+        {products.map((product, index) => (
+          <CardProduct
+            key={index}
+            title={product.name}
+            price={product.getFirstOptionPrice().toString()} 
+            imageUrl={product.getFirstImageUrl()}
+            category={product.category}
+          />
+        ))}
       </div>
-
       <div>
         <Button>Ver mais +</Button>
       </div>
     </section>
-  )
+  );
 }

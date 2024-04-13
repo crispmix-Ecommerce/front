@@ -1,7 +1,7 @@
-import * as React from 'react'
-
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import * as React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -9,43 +9,41 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
-import Link from 'next/link'
+} from '@/components/ui/card';
+import { getCategoryIcon } from '@/utils/getCategoryIcon';
 interface CardProductProps {
-  src: string
-  title: string
-  type: string
-  price: string
+  imageUrl: string;
+  title: string;
+  category: string;
+  price: string;
 }
 
-export function CardProduct({ src, title, type, price }: CardProductProps) {
+export function CardProduct({ imageUrl, title, category, price }: CardProductProps) {
+  const categoryIcon = getCategoryIcon(category); 
+
   return (
-    <Link href={'/product'}>
+    <Link href="/product">
       <Card className="w-[350px] bg-custom-gray">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>
-            {type} | <strong> R$ {price}</strong>
+            <div className="flex items-center">
+              {categoryIcon} 
+              <span className="ml-2">{category}</span> 
+            </div>
+            <strong> R$ {price}</strong>
           </CardDescription>
         </CardHeader>
         <CardContent className="pb-8 flex flex-col items-center">
-          <Image
-            src={src}
-            alt={`Image`}
-            width={253}
-            height={323}
-          />
+          <Image src={imageUrl} alt={title} width={253} height={323} />
         </CardContent>
         <CardFooter className="flex justify-center">
-          <Button
-            className="m-2"
-            variant="outline"
-          >
+          <Button className="m-2" variant="outline">
             Informações
           </Button>
           <Button className="bg-custom-green">Adicionar no carrinho +</Button>
         </CardFooter>
       </Card>
     </Link>
-  )
+  );
 }
