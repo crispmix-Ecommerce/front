@@ -10,12 +10,14 @@ interface ProductOption {
   }
   
   class Product {
+    id: string;
     name: string;
     options: ProductOption[];
     images: ProductImage[];
     category: string;
   
-    constructor(name: string, options: ProductOption[], images: ProductImage[], category: string) {
+    constructor(id: string, name: string, options: ProductOption[], images: ProductImage[], category: string) {
+      this.id = id;
       this.name = name;
       this.options = options;
       this.images = images;

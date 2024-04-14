@@ -1,11 +1,12 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Banner from '@/components/layout/shared/banner';
-import { CardProduct } from '@/components/layout/shared/card';
 import { Button } from '@/components/ui/button';
 import Product from '@/models/ProductHome'; 
+import { CardProduct } from '@/components/layout/shared/card';
 
 interface ProductData {
+  id: string;
   name: string;
   option: { price: number }[];
   images: { firstImage: string }[];
@@ -27,6 +28,7 @@ export default function HomePage() {
         const data: ProductData[] = await response.json(); 
         const formattedProducts = data.slice(0, 20).map((productData: ProductData) => {
           return new Product(
+            productData.id,
             productData.name,
             productData.option,
             productData.images,
@@ -65,6 +67,7 @@ export default function HomePage() {
         {products.map((product, index) => (
           <CardProduct
             key={index}
+            id={product.id}
             title={product.name}
             price={product.getFirstOptionPrice().toString()} 
             imageUrl={product.getFirstImageUrl()}
