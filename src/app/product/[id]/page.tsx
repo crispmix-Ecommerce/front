@@ -2,7 +2,7 @@ import Product from '@/models/ProductHome';
 import { ProductComponent } from './components/product-component';
 
 interface ProductDetailPageProps {
-  params: { id: number | string };
+  params: { id: string };
 }
 
 export async function generateStaticParams() {
@@ -23,7 +23,7 @@ export default async function ProductDetailPage({
   return (
     <section className="flex-col items-center p-16 gap-4">
       <h1>Produto fetch {id}</h1>
-      <ProductComponent />
+      <ProductComponent id={id} />
     </section>
   );
 }

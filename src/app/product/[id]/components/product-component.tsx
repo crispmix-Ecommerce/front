@@ -1,13 +1,13 @@
 'use client';
 
 import Product from '@/models/ProductHome';
-import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
-interface ProductComponentProps {}
+interface ProductComponentProps {
+  id: string;
+}
 
-export function ProductComponent({}) {
-  const { id } = useParams();
+export function ProductComponent({ id }: ProductComponentProps) {
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
