@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
-import * as React from 'react'
+import * as React from 'react';
 
-import { cn } from '@/lib/utils'
+import { cn } from '@/lib/utils';
 
 import {
   NavigationMenu,
@@ -11,37 +11,91 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@/components/ui/navigation-menu'
-import { FlaskConical, PaintBucket, Palette } from 'lucide-react'
-
-const components: { title: string; href: string; description: string }[] = [
-  {
-    title: 'A base de água',
-    href: '/docs/primitives/alert-dialog',
-    description:
-      'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
-  },
-  {
-    title: 'Plastisol',
-    href: '/docs/primitives/hover-card',
-    description:
-      'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
-  },
-  {
-    title: 'Promoção',
-    href: '/docs/primitives/progress',
-    description:
-      'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
-  },
-  {
-    title: 'Todos',
-    href: '/docs/primitives/scroll-area',
-    description:
-      'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
-  },
-]
+} from '@/components/ui/navigation-menu';
+import { FlaskConical, PaintBucket, Palette } from 'lucide-react';
 
 export function NavigationSubMenu() {
+  const aditivosComponents = [
+    {
+      title: 'A base de água',
+      href: "/product-list?category=Aditivos&subCategory=Base d'água",
+      description:
+        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+    },
+    {
+      title: 'Plastisol',
+      href: '/product-list?category=Aditivos&subCategory=Plastisol',
+      description:
+        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+    },
+    {
+      title: 'Promoção',
+      href: '/aditivos/promocao',
+      description:
+        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+    },
+    {
+      title: 'Todos',
+      href: '/product-list?category=Aditivos',
+      description:
+        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+    },
+  ];
+
+  const pigmentosComponents = [
+    {
+      title: 'A base de água',
+      href: "/product-list?category=Pigmentos&subCategory=Base d'água",
+      description:
+        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+    },
+    {
+      title: 'Plastisol',
+      href: '/product-list?category=Pigmentos&subCategory=Plastisol',
+      description:
+        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+    },
+    {
+      title: 'Promoção',
+      href: '/pigments/promocao',
+      description:
+        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+    },
+    {
+      title: 'Todos',
+      href: '/product-list?category=Pigmentos',
+      description:
+        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+    },
+  ];
+
+  const tintasComponents = [
+    {
+      title: 'A base de água',
+      href: "/product-list?category=Tintas&subCategory=Base d'água",
+      description:
+        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+    },
+    {
+      title: 'Plastisol',
+      href: '/product-list?category=Tintas&subCategory=Plastisol',
+      description:
+        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+    },
+    {
+      title: 'Promoção',
+      href: '/aditivos/promocao',
+      description:
+        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+    },
+    {
+      title: 'Todos',
+      href: '/product-list?category=Tintas',
+      description:
+        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+    },
+  ];
+
   return (
     <NavigationMenu>
       <NavigationMenuList className="flex justify-center">
@@ -51,12 +105,14 @@ export function NavigationSubMenu() {
               <div className="flex flex-col items-center">
                 <FlaskConical size={20} />
               </div>
-              <span>Aditivos</span>
+              <span>
+                <p className="text-xs sm:text-base">Aditivos</p>
+              </span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {components.map((component) => (
+              {aditivosComponents.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
@@ -68,18 +124,21 @@ export function NavigationSubMenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-custom-pink">
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
                 <Palette size={20} />
               </div>
-              <span>Pigmentos</span>
+              <span>
+                <p className="text-xs sm:text-base">Pigmentos</p>
+              </span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {components.map((component) => (
+              {pigmentosComponents.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
@@ -91,18 +150,21 @@ export function NavigationSubMenu() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-custom-yellow">
             <div className="flex items-end gap-1 cursor-pointer">
               <div className="flex flex-col items-center">
                 <PaintBucket size={20} />
               </div>
-              <span>Tintas</span>
+              <span>
+                <p className="text-xs sm:text-base">Tintas</p>
+              </span>
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-              {components.map((component) => (
+              {tintasComponents.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
@@ -116,7 +178,7 @@ export function NavigationSubMenu() {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
-  )
+  );
 }
 
 const ListItem = React.forwardRef<
@@ -141,6 +203,6 @@ const ListItem = React.forwardRef<
         </a>
       </NavigationMenuLink>
     </li>
-  )
-})
-ListItem.displayName = 'ListItem'
+  );
+});
+ListItem.displayName = 'ListItem';

@@ -1,4 +1,3 @@
-import Product from '@/models/ProductHome';
 import { ProductComponent } from './components/product-component';
 
 interface ProductDetailPageProps {
