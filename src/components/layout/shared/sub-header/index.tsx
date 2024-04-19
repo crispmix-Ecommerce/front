@@ -111,7 +111,7 @@ export function NavigationSubMenu() {
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[360px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {aditivosComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -137,7 +137,7 @@ export function NavigationSubMenu() {
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[360] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {pigmentosComponents.map((component) => (
                 <ListItem
                   key={component.title}
@@ -163,7 +163,7 @@ export function NavigationSubMenu() {
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[360] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {tintasComponents.map((component) => (
                 <ListItem
                   key={component.title}

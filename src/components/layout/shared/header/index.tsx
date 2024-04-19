@@ -1,10 +1,19 @@
 'use client';
-import { useState, useEffect } from 'react';
-import { Search, ShoppingCart } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
 import Product from '@/models/ProductHome';
+import { NavigationSubMenu } from '../sub-header';
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from '@/components/ui/command';
+import { ShoppingCartIcon } from 'lucide-react';
 
 interface ProductData {
   id: string;
@@ -47,18 +56,29 @@ export default function Header() {
     fetchData();
   }, []);
 
+  const handleLinkClick = () => {
+    setSearchResults([]);
+    setSearchQuery('');
+  };
+
+  const handleSearchFocus = (isInputFocused: boolean) => {
+    setTimeout(() => {
+      setIsInputFocused(isInputFocused);
+      if (!isInputFocused) handleLinkClick();
+    }, 100);
+  };
+
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setSearchQuery(query);
 
-    const filteredResults = products.filter((product) =>
-      product.name.toLowerCase().includes(query.toLowerCase()),
-    );
+    const filteredResults =
+      query.trim() === ''
+        ? []
+        : products.filter((product) =>
+            product.name.toLowerCase().includes(query.toLowerCase()),
+          );
     setSearchResults(filteredResults);
-  };
-
-  const handleInputFocus = () => {
-    setIsInputFocused(true);
   };
 
   return (
@@ -74,23 +94,60 @@ export default function Header() {
                 height={170}
               />
             </Link>
-
-            <div className="w-full max-w-[768px] flex justify-center">
-              <div className="w-full bg-white py-2 px-4 rounded-lg flex items-center">
-                <input
-                  type="text"
-                  placeholder="Procure seu produto aqui."
+            <div className="w-full max-w-[768px] flex justify-center relative">
+              <Command>
+                <CommandInput
+                  placeholder="Pesquise seus produtos aqui"
                   value={searchQuery}
-                  onChange={handleSearchChange}
-                  onFocus={handleInputFocus}
-                  className="flex-1 outline-none placeholder:text-custom-dark placeholder:text-sm"
-                  style={{ maxWidth: 'calc(100% - 40px)' }}
+                  onChangeCapture={handleSearchChange}
+                  onFocus={() => handleSearchFocus(true)}
+                  onBlur={() => handleSearchFocus(false)}
                 />
-                <Search
-                  size={18}
-                  className="cursor-pointer"
-                />
-              </div>
+                <CommandList className="absolute inset-x-0 top-[40px] z-50 bg-white">
+                  {searchResults.length === 0 &&
+                    isInputFocused &&
+                    searchQuery.trim() !== '' && (
+                      <CommandEmpty>No results found.</CommandEmpty>
+                    )}
+                  {searchResults.length > 0 && (
+                    <CommandGroup heading="Produtos">
+                      {searchResults.map((product) => (
+                        <Link
+                          key={product.id}
+                          href={`/product/${product.id}`}
+                          onClick={handleLinkClick}
+                        >
+                          <CommandItem>
+                            <div className="flex flex-row items-center">
+                              <div className="w-32 h-32 mr-4 border-4 border-custom-gray rounded-lg overflow-hidden">
+                                <Image
+                                  src={product.getFirstImageUrl()}
+                                  alt={product.name}
+                                  layout="responsive"
+                                  width={48}
+                                  height={48}
+                                />
+                              </div>
+                              <div>
+                                <div className="mr-4">{product.name}</div>
+                                <div className="flex items-center">
+                                  {getCategoryIcon(product.category)}
+                                  <span className="ml-2">
+                                    {product.category}
+                                  </span>
+                                </div>
+                                <div className="flex items-center">
+                                  <span>{product.subCategory}</span>
+                                </div>
+                              </div>
+                            </div>
+                          </CommandItem>
+                        </Link>
+                      ))}
+                    </CommandGroup>
+                  )}
+                </CommandList>
+              </Command>
             </div>
 
             <Link href="/cart">
@@ -99,7 +156,7 @@ export default function Header() {
                   <div className="w-5 h-5 rounded-full text-xs flex items-center justify-center text-white bg-custom-blue">
                     19
                   </div>
-                  <ShoppingCart
+                  <ShoppingCartIcon
                     size={24}
                     fill="bg-custom-dark "
                   />
@@ -110,45 +167,9 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {isInputFocused && searchQuery && (
-        <div className="container p-4">
-          <ul>
-            {searchResults.map((product) => (
-              <li
-                key={product.id}
-                className="flex items-center py-2"
-              >
-                <Link
-                  href={`/product/${product.id}`}
-                  passHref
-                >
-                  <div className="flex flex-row items-center">
-                    <div className="w-32 h-32 mr-4 border border-gray-300 rounded-lg overflow-hidden">
-                      <Image
-                        src={product.getFirstImageUrl()}
-                        alt={product.name}
-                        layout="responsive"
-                        width={48}
-                        height={48}
-                      />
-                    </div>
-                    <div>
-                      <div className="mr-4">{product.name}</div>
-                      <div className="flex items-center">
-                        {getCategoryIcon(product.category)}
-                        <span className="ml-2">{product.category}</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span>{product.subCategory}</span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div className="bg-custom-dark p-2 flex items-center justify-center">
+        <NavigationSubMenu />
+      </div>
     </div>
   );
 }

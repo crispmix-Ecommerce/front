@@ -19,10 +19,5 @@ export async function generateStaticParams() {
 export default async function ProductDetailPage({
   params: { id },
 }: ProductDetailPageProps) {
-  return (
-    <section className="flex-col items-center p-16 gap-4">
-      <h1>Produto fetch {id}</h1>
-      <ProductComponent id={id} />
-    </section>
-  );
+  return <ProductComponent id={id} />;
 }
