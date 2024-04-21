@@ -2,14 +2,14 @@
 import { useEffect, useState } from 'react';
 import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-import Product from '@/models/ProductHome';
 import { CardProduct } from '@/components/layout/shared/card';
+import Product from '@/models/Product';
 
 interface ProductData {
   id: string;
   name: string;
   option: { price: number }[];
-  images: { firstImage: string }[];
+  images: { imageUrl: string }[];
   category: string;
   subCategory: string;
 }
@@ -89,7 +89,7 @@ function ProductListContent() {
             id={product.id}
             title={product.name}
             price={product.getFirstOptionPrice().toString()}
-            imageUrl={product.getFirstImageUrl()}
+            imageUrl={product.getImageUrl(0)}
             category={product.category}
           />
         ))}

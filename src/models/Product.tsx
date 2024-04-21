@@ -3,10 +3,7 @@ interface ProductOption {
 }
 
 interface ProductImage {
-  firstImage: string;
-}
-interface ProductImage {
-  firstImage: string;
+  imageUrl: string;
 }
 
 class Product {
@@ -40,9 +37,9 @@ class Product {
     return 0;
   }
 
-  getFirstImageUrl(): string {
-    if (this.images && this.images.length > 0) {
-      return this.images[0].firstImage;
+  getImageUrl(index: number): string {
+    if (this.images && this.images.length > index) {
+      return this.images[index].imageUrl;
     }
     return '';
   }

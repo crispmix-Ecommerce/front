@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
-import Product from '@/models/ProductHome';
 import { NavigationSubMenu } from '../sub-header';
 import {
   Command,
@@ -14,12 +13,13 @@ import {
   CommandList,
 } from '@/components/ui/command';
 import { ShoppingCartIcon } from 'lucide-react';
+import Product from '@/models/Product';
 
 interface ProductData {
   id: string;
   name: string;
   option: { price: number }[];
-  images: { firstImage: string }[];
+  images: { imageUrl: string }[];
   category: string;
   subCategory: string;
 }
@@ -65,7 +65,7 @@ export default function Header() {
     setTimeout(() => {
       setIsInputFocused(isInputFocused);
       if (!isInputFocused) handleLinkClick();
-    }, 100);
+    }, 200);
   };
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -95,15 +95,15 @@ export default function Header() {
               />
             </Link>
             <div className="w-full max-w-[768px] flex justify-center relative">
-              <Command>
+              <Command className="border-4 rounded-t-lg border-white">
                 <CommandInput
-                  placeholder="Pesquise seus produtos aqui"
+                  placeholder="Pesquise produtos aqui"
                   value={searchQuery}
                   onChangeCapture={handleSearchChange}
                   onFocus={() => handleSearchFocus(true)}
                   onBlur={() => handleSearchFocus(false)}
                 />
-                <CommandList className="absolute inset-x-0 top-[40px] z-50 bg-white">
+                <CommandList className="absolute inset-x-0 top-[40px] z-50 bg-white border-4 rounded-b-lg border-white">
                   {searchResults.length === 0 &&
                     isInputFocused &&
                     searchQuery.trim() !== '' && (
@@ -121,7 +121,7 @@ export default function Header() {
                             <div className="flex flex-row items-center">
                               <div className="w-32 h-32 mr-4 border-4 border-custom-gray rounded-lg overflow-hidden">
                                 <Image
-                                  src={product.getFirstImageUrl()}
+                                  src={product.getImageUrl(1)}
                                   alt={product.name}
                                   layout="responsive"
                                   width={48}
