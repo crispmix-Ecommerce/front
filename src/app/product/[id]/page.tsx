@@ -19,5 +19,14 @@ export async function generateStaticParams() {
 export default async function ProductDetailPage({
   params: { id },
 }: ProductDetailPageProps) {
-  return <ProductComponent id={id} />;
+  return (
+    <ProductComponent
+      id={id}
+      name={''}
+      option={[]}
+      images={[]}
+      category={''}
+      subCategory={''}
+    />
+  );
 }

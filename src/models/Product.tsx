@@ -1,7 +1,7 @@
 interface ProductOption {
   price: number;
+  unitMeasure: string;
 }
-
 interface ProductImage {
   imageUrl: string;
 }
@@ -30,18 +30,19 @@ class Product {
     this.subCategory = subCategory;
   }
 
-  getFirstOptionPrice(): string | number {
-    if (this.options && this.options.length > 0) {
-      return this.options[0].price.toFixed(2);
-    }
-    return 0;
-  }
-
   getImageUrl(index: number): string {
     if (this.images && this.images.length > index) {
       return this.images[index].imageUrl;
     }
     return '';
+  }
+
+  getOptionPrice(index: number): { price: number; unitMeasure: string } {
+    if (this.options && this.options.length > index) {
+      const { price, unitMeasure } = this.options[index];
+      return { price, unitMeasure };
+    }
+    return { price: 0, unitMeasure: '' };
   }
 }
 

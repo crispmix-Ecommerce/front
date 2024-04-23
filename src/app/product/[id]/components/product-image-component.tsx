@@ -32,13 +32,13 @@ export function ProductImageComponent({ images }: ProductImageComponentProps) {
           </div>
         ))}
       </div>
-      <div className="flex justify-center items-center">
+      <div>
         <img
           src={selectedImageUrl}
           alt="Product"
           width={376}
           height={376}
-          className="w-94 h-94 rounded-lg border-4 border-custom-gray"
+          className="w-94 h-94  rounded-lg border-4 border-custom-gray"
         />
       </div>
     </section>

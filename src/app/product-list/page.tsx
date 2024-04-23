@@ -4,11 +4,14 @@ import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { CardProduct } from '@/components/layout/shared/card';
 import Product from '@/models/Product';
-
+interface ProductOption {
+  price: number;
+  unitMeasure: string;
+}
 interface ProductData {
   id: string;
   name: string;
-  option: { price: number }[];
+  options: ProductOption[];
   images: { imageUrl: string }[];
   category: string;
   subCategory: string;
@@ -59,7 +62,7 @@ function ProductListContent() {
           return new Product(
             productData.id,
             productData.name,
-            productData.option,
+            productData.options,
             productData.images,
             productData.category,
             productData.subCategory,
@@ -88,7 +91,7 @@ function ProductListContent() {
             key={index}
             id={product.id}
             title={product.name}
-            price={product.getFirstOptionPrice().toString()}
+            price={product.getOptionPrice(0).price.toString()}
             imageUrl={product.getImageUrl(0)}
             category={product.category}
           />
