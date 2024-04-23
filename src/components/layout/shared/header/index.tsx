@@ -15,10 +15,14 @@ import {
 import { ShoppingCartIcon } from 'lucide-react';
 import Product from '@/models/Product';
 
+interface ProductOption {
+  price: number;
+  unitMeasure: string;
+}
 interface ProductData {
   id: string;
   name: string;
-  option: { price: number }[];
+  options: ProductOption[];
   images: { imageUrl: string }[];
   category: string;
   subCategory: string;
@@ -43,7 +47,7 @@ export default function Header() {
           return new Product(
             productData.id,
             productData.name,
-            productData.option,
+            productData.options,
             productData.images,
             productData.category,
             productData.subCategory,

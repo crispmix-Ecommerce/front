@@ -23,7 +23,7 @@ export default async function ProductDetailPage({
     <ProductComponent
       id={id}
       name={''}
-      option={[]}
+      options={[]}
       images={[]}
       category={''}
       subCategory={''}

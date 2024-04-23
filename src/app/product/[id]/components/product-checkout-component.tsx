@@ -44,10 +44,15 @@ export function ProductCheckoutComponent() {
             exclusiva.
           </p>
         </div>
-        <div className="relative my-2">
-          <span className="bg-custom-green border-8 border-custom-green rounded">
-            Entrar em contato
-          </span>
+        <div className="my-2">
+          <button className="flex py-2 px-4 bg-custom-green hover:bg-blue-500 text-white font-bold rounded">
+            <p className="mr-2"> Entrar em contato</p>
+            <img
+              src="/zapicon.png"
+              alt="Whatsapp icon"
+              className=" h-6 w-6"
+            />
+          </button>
         </div>
         <h3 className="pt-4 text-lg font-bold ">Estoque disponível</h3>
         <div className="flex justify-between">

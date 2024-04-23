@@ -1,10 +1,5 @@
 import { useState } from 'react';
 
-interface ProductOption {
-  price: number;
-  unitMeasure: string;
-}
-
 interface ProductDetailPageProps {
   getCategoryIcon: (category: string) => JSX.Element;
   productCategory: string;
@@ -56,7 +51,6 @@ export function ProductDetailPage({
         </div>
         <div>(20)</div>
       </div>
-
       <div className="relative my-4">
         <span className="bg-custom-orange border-8 border-custom-orange rounded">
           Promoção!
