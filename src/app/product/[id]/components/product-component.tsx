@@ -103,7 +103,13 @@ export function ProductComponent({ id }: ProductComponentProps) {
             </div>
           </div>
           <div className="lg:w-1/3 md:w-full border-2 border-custom-gray m-4 pr-4 p-4 rounded">
-            <ProductCheckoutComponent></ProductCheckoutComponent>
+            <ProductCheckoutComponent
+              name={product.name}
+              category={product.category}
+              subCategory={product.subCategory}
+              price={selectedPrice || product.options[0]?.price}
+              urlImg={product.getImageUrl(0)}
+            ></ProductCheckoutComponent>
           </div>
         </div>
       ) : null}

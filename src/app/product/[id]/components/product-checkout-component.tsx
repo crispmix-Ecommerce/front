@@ -1,7 +1,23 @@
+import { cartDB } from '@/db/db.cart';
+import { CartDBService } from '@/service/cache/cart_db.service';
 import { AwardIcon, InfoIcon, Rocket, ShieldIcon } from 'lucide-react';
 import { ChangeEvent, useState } from 'react';
 
-export function ProductCheckoutComponent() {
+interface ProductCheckoutComponentProps {
+  name: string;
+  category: string;
+  subCategory: string;
+  price: number;
+  urlImg: string;
+}
+
+export function ProductCheckoutComponent({
+  name,
+  category,
+  subCategory,
+  price,
+  urlImg,
+}: ProductCheckoutComponentProps) {
   const [count, setCount] = useState(1);
 
   const handleCountChange = (e: ChangeEvent<HTMLSelectElement>) => {
@@ -10,6 +26,19 @@ export function ProductCheckoutComponent() {
       setCount(Math.min(Math.max(0, newCount), 50));
     }
   };
+
+  const addToStorage = () => {
+    const cart = new CartDBService();
+    cart.addProduct({
+      name: name,
+      category: category,
+      subCategory: subCategory,
+      price: price,
+      quantity: count,
+      urlImg: urlImg,
+    });
+  };
+
   return (
     <div>
       <div className="flex flex-col justify-center">
@@ -80,8 +109,11 @@ export function ProductCheckoutComponent() {
         <button className="w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-4 rounded">
           Comprar
         </button>
-        <button className="w-full bg-custom-blue  hover:bg-blue-500 text-white font-bold py-4 px-4 rounded">
-          Adicitonar no carrinho
+        <button
+          onClick={addToStorage}
+          className="w-full bg-custom-blue  hover:bg-blue-500 text-white font-bold py-4 px-4 rounded"
+        >
+          Adicionar no carrinho
         </button>
         <div className="flex text-blue-900">
           <div>

@@ -1,10 +1,14 @@
 import OpenInformationComponent from '@/components/layout/shared/openInformation';
 import { Button } from '@/components/ui/button';
+import { ProductDB } from '@/models/ProductDB';
 import { TicketIcon, ForwardIcon } from 'lucide-react';
-import Link from 'next/link';
 import React from 'react';
 
-export function CartCheckouComponent() {
+interface CartCheckouComponentProps {
+  products?: ProductDB[];
+}
+
+export function CartCheckouComponent({ products }: CartCheckouComponentProps) {
   const [isDialogOpen, setIsDialogOpen] = React.useState(false);
 
   const handleOpenDialog = () => {
@@ -15,6 +19,16 @@ export function CartCheckouComponent() {
     setIsDialogOpen(false);
   };
 
+  const somaTotal = products
+    ?.reduce((acc, product) => {
+      return acc + product.price * product.quantity;
+    }, 0)
+    .toLocaleString(undefined, { minimumFractionDigits: 2 });
+
+  const totalProducts = products?.reduce((acc, product) => {
+    return acc + product.quantity;
+  }, 0);
+
   return (
     <div className="w-full my-4 border-2 border-custom-gray rounded">
       <div className="flex flex-col justify-center">
@@ -22,9 +36,9 @@ export function CartCheckouComponent() {
         <div>
           <div className="flex justify-between px-2 ">
             <div>
-              <p className="text-lg font-bold">Produtos(8)</p>
+              <p className="text-lg font-bold">Produtos({totalProducts})</p>
             </div>
-            <p>R$ 1840.23</p>
+            <p>R$ {somaTotal}</p>
           </div>
         </div>
         <div className="flex-col px-2 py-6">
@@ -89,7 +103,7 @@ export function CartCheckouComponent() {
         </div>
         <div className="flex pt-4 px-2  justify-between">
           <h3 className="text-lg font-bold ">Total</h3>
-          <h3 className="pb-4">R$ 1840.23</h3>
+          <h3 className="pb-4">R$ {somaTotal}</h3>
         </div>
       </div>
       <div className="flex px-2  py-4 flex-col justify-center ">
