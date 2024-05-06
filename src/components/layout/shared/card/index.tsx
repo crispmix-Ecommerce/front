@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
+import OpenInformationComponent from '../openInformation';
 
 interface CardProductProps {
   imageUrl: string;
@@ -30,7 +31,17 @@ export function CardProduct({
 }: CardProductProps) {
   const categoryIcon = getCategoryIcon(category);
 
-  const addProductToCard = () => {};
+  const [isDialogOpen, setIsDialogOpen] = React.useState(false);
+
+  const handleOpenDialog = () => {
+    setIsDialogOpen(true);
+  };
+
+  const handleCloseDialog = () => {
+    setIsDialogOpen(false);
+  };
+
+  const addToCart = () => {};
 
   return (
     <Card className="w-[23rem] bg-custom-gray">
@@ -64,9 +75,39 @@ export function CardProduct({
             Informações sobre o produto?
           </Button>
         </Link>
-        <Button className="bg-custom-green text-black  hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105">
+        <Button
+          onClick={handleOpenDialog}
+          className="bg-custom-green text-black  hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105"
+        >
           Adquirir
         </Button>
+        {isDialogOpen && (
+          <OpenInformationComponent
+            title="Continuar comprando?"
+            onClose={handleCloseDialog}
+            buttonText="Quero continuar comprando mais itens."
+            content={
+              <div>
+                <p className="text-md mb-12">
+                  O item será adicionado ao carrinho, caso queira continuar
+                  explorando o catálogo.
+                </p>
+              </div>
+            }
+            children={
+              <div>
+                <Link href="/cart">
+                  <Button
+                    onClick={addToCart}
+                    className="bg-custom-green text-black hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105"
+                  >
+                    Adquirir agora
+                  </Button>
+                </Link>
+              </div>
+            }
+          />
+        )}
       </CardFooter>
     </Card>
   );

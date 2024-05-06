@@ -1,6 +1,20 @@
-import { AwardIcon, TicketIcon, ShieldIcon, ForwardIcon } from 'lucide-react';
+import OpenInformationComponent from '@/components/layout/shared/openInformation';
+import { Button } from '@/components/ui/button';
+import { TicketIcon, ForwardIcon } from 'lucide-react';
+import Link from 'next/link';
+import React from 'react';
 
 export function CartCheckouComponent() {
+  const [isDialogOpen, setIsDialogOpen] = React.useState(false);
+
+  const handleOpenDialog = () => {
+    setIsDialogOpen(true);
+  };
+
+  const handleCloseDialog = () => {
+    setIsDialogOpen(false);
+  };
+
   return (
     <div className="w-full my-4 border-2 border-custom-gray rounded">
       <div className="flex flex-col justify-center">
@@ -9,7 +23,6 @@ export function CartCheckouComponent() {
           <div className="flex justify-between px-2 ">
             <div>
               <p className="text-lg font-bold">Produtos(8)</p>
-              <p className="text-sm">resumo</p>
             </div>
             <p>R$ 1840.23</p>
           </div>
@@ -31,8 +44,38 @@ export function CartCheckouComponent() {
                 aria-hidden="true"
               />
             </div>
-            <p className="ml-2">Cupom de desconto?</p>
+            <p
+              onClick={handleOpenDialog}
+              className="ml-2"
+            >
+              Cupom de desconto?
+            </p>
           </div>
+          {isDialogOpen && (
+            <OpenInformationComponent
+              title="Utilizar cupom de desconto?"
+              onClose={handleCloseDialog}
+              buttonText="fechar"
+              content={
+                <div className="py-4 ">
+                  <p>Adicione seu cumpo no campo abaixo.</p>
+                  <input
+                    type="text"
+                    placeholder="Código do cupom"
+                    className="p-2 my-2 border border-gray-300 rounded-md focus:outline-none focus:border-custom-blue"
+                    maxLength={6}
+                  />
+                </div>
+              }
+              children={
+                <div className="flex items-center space-x-2">
+                  <Button className="bg-custom-blue text-black hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Aplicar
+                  </Button>
+                </div>
+              }
+            ></OpenInformationComponent>
+          )}
         </div>
         <div className="px-2 my-2">
           <button className="flex py-2 px-4 bg-custom-green hover:bg-blue-500 text-white font-bold rounded">
