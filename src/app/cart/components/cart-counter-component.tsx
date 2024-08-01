@@ -56,7 +56,7 @@ export default function ProducCounterItem({
     }
   };
 
-  const valor = productPrice.toLocaleString(undefined, {
+  const valor = productPrice.toLocaleString('pt-br', {
     minimumFractionDigits: 2,
   });
 

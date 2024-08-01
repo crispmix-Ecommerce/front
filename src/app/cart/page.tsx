@@ -31,7 +31,7 @@ export default function CartCheckout() {
       <div className="w-full">Home / E-Commerce</div>
       <div className="flex flex-col lg:flex-row">
         <div className="lg:w-2/3 p-2">
-          {products &&
+          {products && products.length > 0 ? (
             products.map((product, index) => (
               <ProducCounterItem
                 key={index}
@@ -44,7 +44,10 @@ export default function CartCheckout() {
                 productPrice={product.price}
                 quantity={product.quantity}
               ></ProducCounterItem>
-            ))}
+            ))
+          ) : (
+            <p>Não há itens adicionados ao carrinho ainda :C</p>
+          )}
         </div>
         <div className="lg:w-1/3 m-4 py-2">
           <CartCheckouComponent products={products}></CartCheckouComponent>

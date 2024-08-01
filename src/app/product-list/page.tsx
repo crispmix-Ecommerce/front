@@ -91,9 +91,10 @@ function ProductListContent() {
             key={index}
             id={product.id}
             title={product.name}
-            price={product.getOptionPrice(0).price.toString()}
+            price={product.getOptionPrice(0).price}
             imageUrl={product.getImageUrl(0)}
             category={product.category}
+            subCategory={product.subCategory}
           />
         ))}
       </div>

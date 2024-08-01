@@ -1,6 +1,8 @@
 import OpenInformationComponent from '@/components/layout/shared/openInformation';
 import { Button } from '@/components/ui/button';
 import { ProductDB } from '@/models/ProductDB';
+import { CartDBService } from '@/service/cache/cart_db.service';
+import { useLiveQuery } from 'dexie-react-hooks';
 import { TicketIcon, ForwardIcon } from 'lucide-react';
 import React from 'react';
 
@@ -23,11 +25,51 @@ export function CartCheckouComponent({ products }: CartCheckouComponentProps) {
     ?.reduce((acc, product) => {
       return acc + product.price * product.quantity;
     }, 0)
-    .toLocaleString(undefined, { minimumFractionDigits: 2 });
+    .toLocaleString('pt-br', { minimumFractionDigits: 2 });
 
   const totalProducts = products?.reduce((acc, product) => {
     return acc + product.quantity;
   }, 0);
+
+  const productsGetAll = useLiveQuery(() => {
+    const cartService = new CartDBService();
+    return cartService.getProducts();
+  });
+
+  const handleConvertTextAscii = () => {
+    const orderProducts = productsGetAll?.map((product) => {
+      return `*${product.quantity}x ${product.name} - ${product.category} - ${product.subCategory} - R$ ${product.price.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}.*`;
+    });
+
+    const total = products
+      ?.reduce((acc, product) => {
+        return acc + product.price * product.quantity;
+      }, 0)
+      .toLocaleString('pt-br', { minimumFractionDigits: 2 });
+
+    const text = `👨‍🔬 GOSTOU DE PEDIR EM NOSSO E-COMMERCE? 🎨
+Não precisa baixar nada, rápido e seguro:
+https://crispmix.com.br/
+---------------------------------------
+Confira o pedido abaixo:
+
+${orderProducts?.join('\n')}
+
+*Total:* R$ ${total}.
+
+---------------------------------------
+*Pedido Crispmix E-commerce*`;
+
+    const formattedText = formatTextForWhatsApp(text);
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=5547997137650&text=${formattedText}`;
+
+    window.open(whatsappLink, '_blank');
+  };
+
+  const formatTextForWhatsApp = (text: string): string => {
+    const formattedText = encodeURIComponent(text);
+    return formattedText;
+  };
 
   return (
     <div className="w-full my-4 border-2 border-custom-gray rounded">
@@ -107,7 +149,10 @@ export function CartCheckouComponent({ products }: CartCheckouComponentProps) {
         </div>
       </div>
       <div className="flex px-2  py-4 flex-col justify-center ">
-        <button className="w-full py-4 bg-blue-400 hover:bg-blue-500 text-white font-bold rounded">
+        <button
+          onClick={handleConvertTextAscii}
+          className="w-full py-4 bg-blue-400 hover:bg-blue-500 text-white font-bold rounded"
+        >
           Continuar a compra
         </button>
       </div>

@@ -1,6 +1,7 @@
 import { cartDB } from '@/db/db.cart';
 import { CartDBService } from '@/service/cache/cart_db.service';
 import { AwardIcon, InfoIcon, Rocket, ShieldIcon } from 'lucide-react';
+import Link from 'next/link';
 import { ChangeEvent, useState } from 'react';
 
 interface ProductCheckoutComponentProps {
@@ -106,9 +107,14 @@ export function ProductCheckoutComponent({
         </div>
       </div>
       <div className="flex flex-col justify-center space-y-4">
-        <button className="w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-4 rounded">
-          Comprar
-        </button>
+        <Link href="/cart">
+          <button
+            onClick={addToStorage}
+            className="w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-4 rounded"
+          >
+            Comprar
+          </button>
+        </Link>
         <button
           onClick={addToStorage}
           className="w-full bg-custom-blue  hover:bg-blue-500 text-white font-bold py-4 px-4 rounded"

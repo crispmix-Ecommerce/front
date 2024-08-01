@@ -1,5 +1,4 @@
 'use client';
-import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -13,12 +12,15 @@ import {
 } from '@/components/ui/card';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
 import OpenInformationComponent from '../openInformation';
+import { CartDBService } from '@/service/cache/cart_db.service';
+import { useState } from 'react';
 
 interface CardProductProps {
   imageUrl: string;
   title: string;
   category: string;
-  price: string;
+  subCategory: string;
+  price: number;
   id: string;
 }
 
@@ -26,22 +28,35 @@ export function CardProduct({
   imageUrl,
   title,
   category,
+  subCategory,
   price,
   id,
 }: CardProductProps) {
   const categoryIcon = getCategoryIcon(category);
 
-  const [isDialogOpen, setIsDialogOpen] = React.useState(false);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [count, setCount] = useState(1);
 
   const handleOpenDialog = () => {
     setIsDialogOpen(true);
   };
 
   const handleCloseDialog = () => {
+    addToStorage();
     setIsDialogOpen(false);
   };
 
-  const addToCart = () => {};
+  const addToStorage = () => {
+    const cart = new CartDBService();
+    cart.addProduct({
+      name: title,
+      category: category,
+      subCategory: subCategory,
+      price: price,
+      quantity: count,
+      urlImg: imageUrl,
+    });
+  };
 
   return (
     <Card className="w-[23rem] bg-custom-gray">
@@ -60,8 +75,8 @@ export function CardProduct({
           <Image
             src={imageUrl}
             alt={title}
-            width={253}
-            height={323}
+            width={320}
+            height={320}
           />
         </CardContent>
       </Link>
@@ -98,7 +113,7 @@ export function CardProduct({
               <div>
                 <Link href="/cart">
                   <Button
-                    onClick={addToCart}
+                    onClick={addToStorage}
                     className="bg-custom-green text-black hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105"
                   >
                     Adquirir agora
