@@ -7,7 +7,7 @@ interface ProductDetailPageProps {
 export async function generateStaticParams() {
   let productIds = [];
 
-  for (let index = 0; index < 40; index++) {
+  for (let index = 0; index < 43; index++) {
     productIds.push(`${index + 1}`);
   }
 
@@ -27,6 +27,7 @@ export default async function ProductDetailPage({
       images={[]}
       category={''}
       subCategory={''}
+      description={''}
     />
   );
 }

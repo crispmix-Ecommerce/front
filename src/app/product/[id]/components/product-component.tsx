@@ -5,6 +5,7 @@ import { ProductImageComponent } from './product-image-component';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
 import { ProductDetailPage } from './product-detail-component';
 import { ProductCheckoutComponent } from './product-checkout-component';
+import ReactMarkdown from 'react-markdown';
 
 interface ProductOption {
   price: number;
@@ -17,6 +18,7 @@ interface ProductComponentProps {
   images: { imageUrl: string }[];
   category: string;
   subCategory: string;
+  description: string;
 }
 
 export function ProductComponent({ id }: ProductComponentProps) {
@@ -42,6 +44,7 @@ export function ProductComponent({ id }: ProductComponentProps) {
             selectedProduct.images,
             selectedProduct.category,
             selectedProduct.subCategory,
+            selectedProduct.description,
           );
           setProduct(formattedProduct);
           setSelectedPrice(selectedProduct.options[0]?.price || null);
@@ -100,6 +103,9 @@ export function ProductComponent({ id }: ProductComponentProps) {
                   {option.unitMeasure}
                 </button>
               ))}
+            </div>
+            <div className="py-4 text-justify">
+              <ReactMarkdown>{product.description}</ReactMarkdown>
             </div>
           </div>
           <div className="lg:w-1/3 md:w-full border-2 border-custom-gray m-4 pr-4 p-4 rounded">
