@@ -15,6 +15,7 @@ interface ProductData {
   images: { imageUrl: string }[];
   category: string;
   subCategory: string;
+  description: string;
 }
 
 export default function ProductList() {
@@ -66,6 +67,7 @@ function ProductListContent() {
             productData.images,
             productData.category,
             productData.subCategory,
+            productData.description,
           );
         });
 

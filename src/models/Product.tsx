@@ -13,6 +13,7 @@ class Product {
   images: ProductImage[];
   category: string;
   subCategory: string;
+  description: string;
 
   constructor(
     id: string,
@@ -21,6 +22,7 @@ class Product {
     images: ProductImage[],
     category: string,
     subCategory: string,
+    description: string,
   ) {
     this.id = id;
     this.name = name;
@@ -28,6 +30,7 @@ class Product {
     this.images = images;
     this.category = category;
     this.subCategory = subCategory;
+    this.description = description;
   }
 
   getImageUrl(index: number): string {

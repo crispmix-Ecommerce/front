@@ -4,8 +4,8 @@
         "subCategory": "Base d'água",
         "category": "Aditivos",
         "name": "Ligante",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "LIGANTE BASE D'ÁGUA 1KG (SERIGRAFIA, ESTAMPARIA) - RESINA TÊXTIL\nDescrição:\nLigante base d'água de alta qualidade para serigrafia e estamparia, ideal para aplicação em tecidos de algodão, mistos e sintéticos. Este produto oferece um toque macio, excelente solidez de cor e resistência a lavagens a seco e úmido. Possui também propriedades anti tack, garantindo que as estampas não grudem entre si.\n\nIndicações de Uso:\n\n- Preparação de tintas à base d'água para serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para obtenção de estampas com toque macio e alta durabilidade.\n\nArmazenamento:\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\nDisponibilidade:\nEste anúncio refere-se a uma unidade de 1kg com disponibilidade imediata para envio.\n\nEnvio:\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2591%20Large.jpeg?alt=media&token=a12c3021-e19d-41e1-b089-f2c89deebc19" },
@@ -33,8 +33,8 @@
         "subCategory": "Base d'água",
         "category": "Aditivos",
         "name": "Espessante",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description":"**LIGANTE BASE D'ÁGUA 1KG (SERIGRAFIA, ESTAMPARIA) - RESINA TÊXTIL COM ESPESSANTE**\n\n**Descrição:**\nLigante de alta qualidade à base d'água com espessante, especialmente desenvolvido para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, oferecendo um toque macio, excelente solidez de cor e resistência a lavagens a seco e úmido. Possui propriedades anti tack, garantindo que as estampas não grudem entre si.\n\n**Indicações de Uso:**\n\n- Preparação de tintas à base d'água para serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para obtenção de estampas com toque macio e alta durabilidade.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de 1kg com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
          "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2600%20Large.jpeg?alt=media&token=d8cf85dc-658a-4567-a6a4-df8332727e8f" },
@@ -62,10 +62,10 @@
         "subCategory": "Base d'água",
         "category": "Aditivos",
         "name": "Fixador",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**FIXADOR (ADITIVO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nAditivo fixador de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma excelente fixação das tintas, aumentando a durabilidade e a resistência das estampas a lavagens. Ideal para ser usado em conjunto com outras tintas para melhorar a adesão e a permanência da impressão no tecido.\n\n**Indicações de Uso:**\n\n- Aditivo para melhorar a fixação de tintas em serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para aumentar a durabilidade e a resistência das estampas a lavagens.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Fixador (Aditivo) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
-         "images": [
+        "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2612%20Large.jpeg?alt=media&token=84ea360d-b35d-4578-ac79-602adae2bff7" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2613%20Large.jpeg?alt=media&token=596594da-ae8d-4a7b-a544-d4d4883a140d" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2614%20Large.jpeg?alt=media&token=a5ddf6d2-76f2-40f2-9397-1687d67f2036" },
@@ -91,8 +91,8 @@
         "subCategory": "Base d'água",
         "category": "Aditivos",
         "name": "Amaciante",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AMACIANTE (ADITIVO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nAditivo amaciante de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um toque suave e macio às estampas, aumentando o conforto e a sensação ao toque. Ideal para ser usado em conjunto com outras tintas para melhorar a textura e a qualidade final da estampa.\n\n**Indicações de Uso:**\n\n- Aditivo para melhorar a suavidade de tintas em serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para aumentar o conforto e a suavidade das estampas.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Amaciante (Aditivo) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2620%20Large.jpeg?alt=media&token=cf74e984-aed4-4a36-a4f4-f9cc8aa5ccf0" },
@@ -115,20 +115,19 @@
             }
         ]
     },
-
     {
         "id": "5",
         "subCategory": "Plastisol",
-        "category": "Aditivos",
-        "name": "Amaciante Plastisol",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "category": "Tintas",
+        "name": "Relevo 3D branco",
+        "condition": "Pasta",
+        "description": "**RELEVO 3D BRANCO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Relevo 3D Branco de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento em relevo tridimensional branco, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar efeitos de relevo em estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito de relevo tridimensional branco.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Relevo 3D Branco com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2612%20Large.jpeg?alt=media&token=84ea360d-b35d-4578-ac79-602adae2bff7" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2613%20Large.jpeg?alt=media&token=596594da-ae8d-4a7b-a544-d4d4883a140d" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2614%20Large.jpeg?alt=media&token=a5ddf6d2-76f2-40f2-9397-1687d67f2036" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2615%20Large.jpeg?alt=media&token=abd244da-2688-4c71-bea8-79cbeba7ee4d" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2823%202.jpeg?alt=media&token=fd35895b-c3b7-4331-a3ed-d4db19cdb473" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2824%202.jpeg?alt=media&token=5d6a056f-c07a-4911-bb81-f5f21995934c" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2825%202.jpeg?alt=media&token=36e6215e-5ee9-4823-9c2d-9c1a85abf123" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2826%202.jpeg?alt=media&token=75adcbe7-3c6a-4dc6-8709-824f96b6b742" }
         ],
         "options": [
             {
@@ -147,17 +146,17 @@
     },
     {
         "id": "6",
-        "subCategory": "Plastisol",
-        "category": "Aditivos",
-        "name": "Espessante Plastisol",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "subCategory": "Base d'água",
+        "category": "Pigmentos",
+        "name": "Marinho",
+        "condition": "Liquido",
+        "description": "**MARINHO (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Marinho de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor azul marinho vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor azul marinho vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Marinho com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2616%20Large.jpeg?alt=media&token=95ef4f79-8f6a-4790-b5d2-a90a5f05f121" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2617%20Large.jpeg?alt=media&token=e821e6b2-bdc2-4a77-82ac-ae1dc6f0a1d7" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2618%20Large.jpeg?alt=media&token=17122099-aab1-47c6-ac11-fb30a13409cd" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2619%20Large.jpeg?alt=media&token=01818540-f5bf-4bcc-b473-3838040e7554" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2661%20Large.jpeg?alt=media&token=970c03ca-8eb2-4082-9553-013ed59e2d6b" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2662%20Large.jpeg?alt=media&token=c0e242d3-689a-4fdb-b157-f5f9e5ed939e" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2663%20Large.jpeg?alt=media&token=b07a1728-3e3d-43e5-ae8b-19c49061f1c2" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2664%20Large.jpeg?alt=media&token=3fe3e34a-a6a8-4009-8ae9-e966d1fd6c0e" }
         ],
         "options": [
             {
@@ -179,14 +178,14 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Amarelo canário - (Baixa temperatura)",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AMARELO CANÁRIO - (BAIXA TEMPERATURA) (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Amarelo Canário de baixa temperatura de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor amarela vibrante e resistente, com excelente durabilidade e solidez de cor em lavagens a baixa temperatura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor amarela vibrante e resistente a baixa temperatura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Amarelo Canário - (Baixa temperatura) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2620%20Large.jpeg?alt=media&token=cf74e984-aed4-4a36-a4f4-f9cc8aa5ccf0" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2621%20Large.jpeg?alt=media&token=fc4608da-1b4d-4204-b83b-9c64a11dcb28" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2622%20Large.jpeg?alt=media&token=13aeee34-0da4-41a2-a0ae-bce0dc3a53de" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2623%20Large.jpeg?alt=media&token=272ac50e-816c-4e63-89eb-f4fa121c6d72" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2636%20Large.jpeg?alt=media&token=bb99abac-a1a1-41ce-a018-019828894973" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2637%20Large.jpeg?alt=media&token=7f783ff2-d7b7-4ecf-a688-b6de02598e07" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2638%20Large.jpeg?alt=media&token=f73e5c03-3a5c-4075-b4ae-6a35e9fb3ff9" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2639%20Large.jpeg?alt=media&token=f9d7143a-78ee-48d6-b682-a1a8d16accd9" }
         ],
         "options": [
             {
@@ -205,14 +204,14 @@
     },
     {
         "id": "8",
-        "subCategorys": "Base d'água",
+        "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Amarelo canário - (Alta temperatura)",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AMARELO CANÁRIO - (ALTA TEMPERATURA) (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Amarelo Canário de alta temperatura de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor amarela vibrante e resistente, com excelente durabilidade e solidez de cor em lavagens a alta temperatura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor amarela vibrante e resistente a alta temperatura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Amarelo Canário - (Alta temperatura) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2676.jpeg?alt=media&token=56e54bb3-10db-4061-90fc-c2cfe06a653e"},
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2676.jpeg?alt=media&token=56e54bb3-10db-4061-90fc-c2cfe06a653e" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2677.jpeg?alt=media&token=dff4c216-6a95-49ef-9e25-c5722dfedafa" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2678.jpeg?alt=media&token=ab7d9200-d9e2-4574-af5b-8e8c61d6eab3" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2679.jpeg?alt=media&token=fb91e2f9-17e7-459d-b920-d2485f3a343e" }
@@ -237,8 +236,8 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Vermelho vivo - (Baixa temperatura)",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**VERMELHO VIVO - (BAIXA TEMPERATURA) (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Vermelho Vivo de baixa temperatura de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor vermelha vibrante e resistente, com excelente durabilidade e solidez de cor em lavagens a baixa temperatura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor vermelha vibrante e resistente a baixa temperatura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Vermelho Vivo - (Baixa temperatura) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2688.jpeg?alt=media&token=ccdd80d6-16e8-49b0-a295-e1acda2ac398" },
@@ -266,8 +265,8 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Vermelho vivo - (Alta temperatura)",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**VERMELHO VIVO - (ALTA TEMPERATURA) (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Vermelho Vivo de alta temperatura de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor vermelha vibrante e resistente, com excelente durabilidade e solidez de cor em lavagens a alta temperatura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor vermelha vibrante e resistente a alta temperatura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Vermelho Vivo - (Alta temperatura) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2692.jpeg?alt=media&token=7ccdff2f-6152-4114-9c73-014d01634645" },
@@ -295,14 +294,14 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Rosa flúor",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**ROSA FLÚOR (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Rosa Flúor de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor rosa fluorescente vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor rosa fluorescente vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Rosa Flúor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2698.jpeg?alt=media&token=d172a6af-bce3-4ce6-be4d-e2a110d82b80" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2699.jpeg?alt=media&token=4b049eef-7072-4242-a7f0-2fc32a2f1c7e" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2700.jpeg?alt=media&token=0357770e-0946-4889-9b11-7b5baa5edea4" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2701.jpeg?alt=media&token=921a666b-ee4c-43ba-bbe4-e7ac3998a4ed" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2710.jpeg?alt=media&token=d9e8ef29-4b6a-4474-8f2a-7729273882d4" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2711.jpeg?alt=media&token=2b603fc7-a465-4688-b088-be43028f24ea" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2712.jpeg?alt=media&token=c7a40684-3692-402e-91af-f34f2105b850" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2713.jpeg?alt=media&token=4353da04-c394-4f95-afb8-6454a0ede316" }
         ],
         "options": [
             {
@@ -321,11 +320,11 @@
     },
     {
         "id": "12",
-        "subCategory": "Base d'água",
+        "subCategory": "Plastisol",
         "category": "Pigmentos",
-        "name": "Verde flúor",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Preto",
+        "condition": "Liquido",
+        "description": "**PRETO (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Preto de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor preta profunda e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor preta profunda e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Preto com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2706.jpeg?alt=media&token=1afbe4dc-a281-4883-9a94-2770928a4cd0" },
@@ -352,15 +351,15 @@
         "id": "13",
         "subCategory": "Base d'água",
         "category": "Pigmentos",
-        "name": "Marinho",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Verde flúor",
+        "condition": "Liquido",
+        "description": "**VERDE FLÚOR (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Verde Flúor de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor verde fluorescente vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor verde fluorescente vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Verde Flúor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2711.jpeg?alt=media&token=2b603fc7-a465-4688-b088-be43028f24ea" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2712.jpeg?alt=media&token=c7a40684-3692-402e-91af-f34f2105b850" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2713.jpeg?alt=media&token=4353da04-c394-4f95-afb8-6454a0ede316" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2714.jpeg?alt=media&token=7721f848-9cd9-454e-bd42-55d635174259" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2657%20Large.jpeg?alt=media&token=ace409ab-d3df-4622-9221-a5326b9647d1" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2658%20Large.jpeg?alt=media&token=40079de9-e507-44a0-bc73-faf344a5da1d" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2659%20Large.jpeg?alt=media&token=bd220ded-c4a8-4435-b6c4-c4c76f3ebb0b" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2660%20Large.jpeg?alt=media&token=16dd9607-dcbb-4979-87f5-db145f67e147" }
         ],
         "options": [
             {
@@ -382,14 +381,14 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Azul Royal",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AZUL ROYAL (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Azul Royal de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor azul royal vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor azul royal vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Azul Royal com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2717.jpeg?alt=media&token=d805057d-1574-4f11-950b-203e3881a172" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2718.jpeg?alt=media&token=6bce1329-1fff-4a03-a6b2-468e3f01a589" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2719.jpeg?alt=media&token=dac64d6b-2d21-47ae-91e1-a159970a6002" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2720.jpeg?alt=media&token=6337ffbb-1b22-423c-83c7-5a3a732af9c9" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2665%20Large.jpeg?alt=media&token=4fcbbf7b-b4c4-40c5-a908-52980340daa9" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2666%20Large.jpeg?alt=media&token=ca4fe729-99ff-44f8-8c83-49c606a1ff49" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2667%20Large.jpeg?alt=media&token=d9fbd6ee-5135-4d5f-8e2f-e18a99b9ea54" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2668%20Large.jpeg?alt=media&token=f0ce301a-9c89-4d6c-b114-0f704cbdf86b" }
         ],
         "options": [
             {
@@ -408,17 +407,17 @@
     },
     {
         "id": "15",
-        "subCategory": "Base d'água",
+        "subCategory": "Plastisol",
         "category": "Pigmentos",
-        "name": "Carmim de alta",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Magenta",
+        "condition": "Liquido",
+        "description": "**MAGENTA (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Magenta de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor magenta vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor magenta vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Magenta com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2721.jpeg?alt=media&token=ba664fc6-b798-4156-ad09-54a59f817f10" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2722.jpeg?alt=media&token=6551a60e-b9e1-47e8-b6c8-67c69bcd216a" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2723.jpeg?alt=media&token=72796e12-b013-4c22-bc59-9748c34e0d88" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2724.jpeg?alt=media&token=d4197fce-f2bf-4724-a1aa-b4e9fd269ff2" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2724.jpeg?alt=media&token=d4197fce-f2bf-4724-a1aa-b4e9fd269ff2" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2725.jpeg?alt=media&token=2cd22a21-148d-4465-ac04-5c5288c12ff5" }
         ],
         "options": [
             {
@@ -438,16 +437,16 @@
     {
         "id": "16",
         "subCategory": "Base d'água",
-        "category": "Pigmentos",
-        "name": "Carmim de baixa",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "category": "Tintas",
+        "name": "Base relevo branco",
+        "condition": "Liquido",
+        "description": "**BASE RELEVO BRANCO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Base Relevo Branco de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento em relevo branco, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar efeitos de relevo em estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito de relevo branco.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Base Relevo Branco com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2725.jpeg?alt=media&token=2cd22a21-148d-4465-ac04-5c5288c12ff5" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2726.jpeg?alt=media&token=c4086a28-8579-4aee-be76-4f5f488b768c" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2727.jpeg?alt=media&token=2e06b47c-bde0-4851-9170-f18ee592eb59" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2728.jpeg?alt=media&token=3fb8ac27-6b20-4132-9aef-0d3ef3e1b7ba" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2728.jpeg?alt=media&token=3fb8ac27-6b20-4132-9aef-0d3ef3e1b7ba" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2729.jpeg?alt=media&token=9ef4578c-d6f3-4a48-a4e4-e8bb4fa68c7b" }
         ],
         "options": [
             {
@@ -469,14 +468,14 @@
         "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Azul flúor",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AZUL FLÚOR (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Azul Flúor de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor azul fluorescente vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor azul fluorescente vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Azul Flúor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2729.jpeg?alt=media&token=9ef4578c-d6f3-4a48-a4e4-e8bb4fa68c7b" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2730.jpeg?alt=media&token=10bb7965-e0e5-470b-8a30-c5b7269fb8b4" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2731.jpeg?alt=media&token=6280d27f-56f9-4283-b4d9-2c8fe9b39c0d" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2732.jpeg?alt=media&token=66691de9-4755-4294-9c33-6f0e6c0c96b4" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2698.jpeg?alt=media&token=d172a6af-bce3-4ce6-be4d-e2a110d82b80" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2699.jpeg?alt=media&token=4b049eef-7072-4242-a7f0-2fc32a2f1c7e" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2700.jpeg?alt=media&token=0357770e-0946-4889-9b11-7b5baa5edea4" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2701.jpeg?alt=media&token=921a666b-ee4c-43ba-bbe4-e7ac3998a4ed" }
         ],
         "options": [
             {
@@ -498,14 +497,14 @@
         "subCategory": "Plastisol",
         "category": "Pigmentos",
         "name": "Amarelo flúor",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**AMARELO FLÚOR (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Amarelo Flúor de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor amarela fluorescente vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor amarela fluorescente vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Amarelo Flúor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2733.jpeg?alt=media&token=43d7f856-e30f-47cc-a49b-23f6a684f767" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2736.jpeg?alt=media&token=fe816f14-9658-4034-a94b-989c2d61ed55" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2737.jpeg?alt=media&token=549e30cd-f9c4-4094-8835-abcdf351cf7e" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2738.jpeg?alt=media&token=cbc6ceca-4981-42a9-b1d2-44a49bcb1d45" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2649%20Large.jpeg?alt=media&token=62ea8b37-a5f7-43c2-8a87-118049919a19" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2650%20Large.jpeg?alt=media&token=7dd2b112-fd05-41bf-8ae1-071280abe799" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2651%20Large.jpeg?alt=media&token=1831e77f-4f1e-41bc-b1b8-f54b24111a62" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2652%20Large.jpeg?alt=media&token=daefe791-63b8-4870-b5bd-0a5c703c2f4a" }
         ],
         "options": [
             {
@@ -527,14 +526,14 @@
         "subCategory": "Plastisol",
         "category": "Pigmentos",
         "name": "Rosa flúor",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**ROSA FLÚOR (PIGMENTO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Rosa Flúor de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor rosa fluorescente vibrante e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor rosa fluorescente vibrante e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Rosa Flúor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2739.jpeg?alt=media&token=8d7c6cbb-fe6e-4bf4-8e21-81681afcbed9" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2740.jpeg?alt=media&token=d508018f-28fd-4eeb-8cae-52b2e47336da" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2741.jpeg?alt=media&token=356b6066-192c-4e53-a475-9b32ce4fdde4" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2742.jpeg?alt=media&token=e6c392af-4a52-40d8-9e6d-edcedea0ae7d" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2710.jpeg?alt=media&token=d9e8ef29-4b6a-4474-8f2a-7729273882d4" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2711.jpeg?alt=media&token=2b603fc7-a465-4688-b088-be43028f24ea" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2712.jpeg?alt=media&token=c7a40684-3692-402e-91af-f34f2105b850" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2713.jpeg?alt=media&token=4353da04-c394-4f95-afb8-6454a0ede316" }
         ],
         "options": [
             {
@@ -551,19 +550,20 @@
             }
         ]
     },
+
     {
         "id": "20",
         "subCategory": "Plastisol",
-        "category": "Pigmentos",
-        "name": "Vermelho",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "category": "Tintas",
+        "name": "Clear",
+        "condition": "Pasta",
+        "description": "**CLEAR PLASTISOL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Clear Plastisol de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento transparente e flexível, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para sobreposições e efeitos especiais.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento transparente e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Clear Plastisol com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2743.jpeg?alt=media&token=5b554ff4-1c8e-4fe2-904c-5f265e13e67a" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2744.jpeg?alt=media&token=59b921df-1f2c-4c5a-82aa-12b6b6dce9d2" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2745.jpeg?alt=media&token=fe4f75e2-941b-4e1c-b971-c965a8a408ed" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2746.jpeg?alt=media&token=75f1953e-3203-4af6-8b14-5e07d99082f1" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2746.jpeg?alt=media&token=75f1953e-3203-4af6-8b14-5e07d99082f1" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2747.jpeg?alt=media&token=2d753b3e-076b-4d30-86a5-8304f587a0c5" }
         ],
         "options": [
             {
@@ -583,16 +583,16 @@
     {
         "id": "21",
         "subCategory": "Plastisol",
-        "category": "Pigmentos",
-        "name": "Turquesa",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "category": "Tintas",
+        "name": "Mix",
+        "condition": "Liquido",
+        "description": "**MIX PLASTISOL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Mix Plastisol de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento vibrante e flexível, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar estampas coloridas e detalhadas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento vibrante e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Mix Plastisol com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2747.jpeg?alt=media&token=2d753b3e-076b-4d30-86a5-8304f587a0c5" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2748.jpeg?alt=media&token=2fb35072-8f3d-46e7-a04f-8092aa911b78" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2749.jpeg?alt=media&token=42e55764-a210-43f2-9cea-c911fba06275" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2750.jpeg?alt=media&token=50594d52-1aae-4d90-bd45-ad112405dc35" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2750.jpeg?alt=media&token=50594d52-1aae-4d90-bd45-ad112405dc35" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2751.jpeg?alt=media&token=888a2061-4211-43f8-8ef3-3435b999ebfe" }
         ],
         "options": [
             {
@@ -611,17 +611,17 @@
     },
     {
         "id": "22",
-        "subCategory": "Plastisol",
+        "subCategory": "Base d'água",
         "category": "Pigmentos",
-        "name": "Verde bandeira",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Carmin - (Alta temperatura)",
+        "condition": "Liquido",
+        "description": "**CARMIN - (ALTA TEMPERATURA) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Carmin de alta temperatura de qualidade superior, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor vibrante e resistente, com excelente durabilidade e solidez de cor em lavagens a alta temperatura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor vibrante e resistente a alta temperatura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Carmin - (Alta temperatura) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2751.jpeg?alt=media&token=888a2061-4211-43f8-8ef3-3435b999ebfe" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2752.jpeg?alt=media&token=226dc6ca-66a3-4669-864d-686b3c0fbeba" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2753.jpeg?alt=media&token=35fdd020-b92a-4a49-8bbf-4fe5992bfafe" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2754.jpeg?alt=media&token=ae0099a8-84c1-4e58-a846-12c205de8269" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2680.jpeg?alt=media&token=a5c71328-67e1-488a-9e29-5d7ce5ea36f1" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2681.jpeg?alt=media&token=50a15482-6114-4f4a-89ff-a875db3260f1" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2682.jpeg?alt=media&token=a8f31954-9f41-41d2-9e87-bb8874139e77" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2683.jpeg?alt=media&token=70053ffe-951a-4883-865b-2e44814f0ba8" }
         ],
         "options": [
             {
@@ -640,17 +640,17 @@
     },
     {
         "id": "23",
-        "subCategory": "Plastisol",
+        "subCategory": "Base d'água",
         "category": "Pigmentos",
         "name": "Preto",
-        "condition": "liquido",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Liquido",
+        "description": "**PRETO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nPigmento Preto de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma cor preta profunda e duradoura, com excelente resistência a lavagens e desbotamento. Ideal para criar estampas nítidas e de alta definição.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com cor preta profunda e duradoura.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Preto com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2755.jpeg?alt=media&token=196673ab-0d84-4fd3-81fe-b57f443c6855" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2757.jpeg?alt=media&token=6ac752da-ed62-4a35-88d5-fbecbbab641d" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2758.jpeg?alt=media&token=45791e49-ff74-4a60-9658-3027efa11ac7" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2759.jpeg?alt=media&token=78efb4aa-04dc-42e2-8cd5-ec80cf808660" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2641%20Large.jpeg?alt=media&token=abcdc43b-4269-494b-901e-80bf09f40db9" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2642%20Large.jpeg?alt=media&token=9edfbbb8-f5bb-4c30-b01f-f62d22db2365" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2643%20Large.jpeg?alt=media&token=71e63ea3-0f1b-4a6b-893c-8a0206efefc7" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2644%20Large.jpeg?alt=media&token=7ee9476a-0055-45e9-8ba9-f230db5d357c" }
         ],
         "options": [
             {
@@ -671,13 +671,13 @@
         "id": "24",
         "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Branco tws lycra",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Relevo 3D branco",
+        "condition": "Pasta",
+        "description": "**RELEVO 3D BRANCO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Relevo 3D Branco de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento em relevo tridimensional branco, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar efeitos de relevo em estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de água para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito de relevo tridimensional branco.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Relevo 3D Branco com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2760.jpeg?alt=media&token=73131e98-d112-4431-b66a-fae172397067" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2761.jpeg?alt=media&token=1d318643-cfc6-4c24-a216-b9ffdda5f82c" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2760.jpeg?alt=media&token=73131e98-d112-4431-b66a-fae172397067" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2762.jpeg?alt=media&token=3af3556f-7372-4b43-a64e-20c0125cd3dc" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2763.jpeg?alt=media&token=769ab0e6-8e21-4bb4-9113-7c2e12612cdb" }
         ],
@@ -700,15 +700,16 @@
         "id": "25",
         "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Mix lycra",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Gel silicon",
+        "condition": "Pasta",
+        "description": "**GEL SILICON (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nGel de silicone de alta qualidade, especialmente desenvolvido para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, oferecendo um acabamento suave e durável, com excelente resistência a lavagens. Proporciona uma impressão nítida e evita o desbotamento.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de gel de silicone.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com toque suave e alta durabilidade.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Gel Silicon com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2764.jpeg?alt=media&token=5331944c-a356-4aab-a7ba-31a04ab0bb4e" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2765.jpeg?alt=media&token=3180dfaa-4772-4612-9cbb-34debe3c1b00" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2766.jpeg?alt=media&token=71f1abc0-5cc9-4d00-9a79-56668f64741b" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2767.jpeg?alt=media&token=93f66759-98d1-4959-96e1-96183f048d47" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2752.jpeg?alt=media&token=226dc6ca-66a3-4669-864d-686b3c0fbeba" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2753.jpeg?alt=media&token=35fdd020-b92a-4a49-8bbf-4fe5992bfafe" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2754.jpeg?alt=media&token=ae0099a8-84c1-4e58-a846-12c205de8269" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2755.jpeg?alt=media&token=196673ab-0d84-4fd3-81fe-b57f443c6855" }
+
         ],
         "options": [
             {
@@ -728,16 +729,19 @@
     {
         "id": "26",
         "subCategory": "Base d'água",
-        "category": "Tintas",
-        "name": "Clear lycra",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "category": "Pasta",
+        "name": "Gel cristal",
+        "condition": "Pasta",
+        "description": "**GEL CRISTAL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nGel cristal de alta qualidade, especialmente desenvolvido para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento transparente e brilhante, com excelente resistência a lavagens. Oferece uma impressão nítida e duradoura.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de gel cristal.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento transparente e brilhante.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Gel Cristal com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2768.jpeg?alt=media&token=74ea68c2-1c09-4928-8229-959bbd8dc9ac" },
+            
+            
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2767.jpeg?alt=media&token=93f66759-98d1-4959-96e1-96183f048d47" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2769.jpeg?alt=media&token=638e8a3b-be59-41d3-86dc-bfabda3ab7a6" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2770.jpeg?alt=media&token=5dd2dd9b-1647-4915-88ab-e935f638f522" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2771.jpeg?alt=media&token=898db24e-ff92-4b60-b5b2-489a0cec4d82" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2768.jpeg?alt=media&token=74ea68c2-1c09-4928-8229-959bbd8dc9ac" }
+         
         ],
         "options": [
             {
@@ -756,17 +760,18 @@
     },
     {
         "id": "27",
-        "subCategory": "Base d'água",
-        "category": "Tintas",
-        "name": "Cola de flocado",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "subCategory": "Plastisol ",
+        "category": "Pasta",
+        "name": "Branco fosco",
+        "condition": "Pasta",
+        "description": "**BRANCO FOSCO PLASTISOL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta plastisol branco fosco de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento fosco e duradouro, com excelente resistência a lavagens. Oferece uma cobertura opaca e uniforme, evitando o desbotamento.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de plastisol.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento fosco e alta durabilidade.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Branco Fosco Plastisol com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2771.jpeg?alt=media&token=898db24e-ff92-4b60-b5b2-489a0cec4d82" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2772.jpeg?alt=media&token=64682c4e-b89e-4b6e-9bff-99e91e40b058" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2773.jpeg?alt=media&token=c0e6626e-d5ab-42c4-b400-89d67cb169da" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2774.jpeg?alt=media&token=be595f26-11a6-47bc-91b4-387b3d2e26df" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2775.jpeg?alt=media&token=aac19338-56aa-4f45-bd38-741a889d561d" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2774.jpeg?alt=media&token=be595f26-11a6-47bc-91b4-387b3d2e26df" }
+       
         ],
         "options": [
             {
@@ -787,15 +792,17 @@
         "id": "28",
         "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Clear perolado incolor",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Perolado incolor",
+        "condition": "Pasta",
+         "description": "**PEROLADO INCOLOR (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta perolada incolor de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento perolado e brilhante, com excelente resistência a lavagens. Oferece uma impressão nítida e duradoura, realçando a beleza natural do tecido.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de tinta perolada incolor.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento perolado e brilhante.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Perolado Incolor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2776.jpeg?alt=media&token=59bb2eb4-37b8-46ab-b0fb-bbd2ebd8aaf0" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2777.jpeg?alt=media&token=cf7fd696-c40c-444e-a7e0-00b73ccfd8e1" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2778.jpeg?alt=media&token=5349e68f-50de-4b50-9013-b6d0c5689fbf" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2779.jpeg?alt=media&token=30af5e44-dc7c-4f71-b310-6770edf68fcc" }
+             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2787.jpeg?alt=media&token=c49785fb-507e-47f5-9b03-d34fea0b4f8f" },
+             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2788.jpeg?alt=media&token=ae1fb691-57b3-442e-a4a2-afa1d7255427" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2789.jpeg?alt=media&token=f58f86ef-7144-4746-bb6e-dca36a0837bf" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2790.jpeg?alt=media&token=ee29d457-6b2f-4c6e-b7c9-e6b4f3e970c5" }
+    
+            
         ],
         "options": [
             {
@@ -816,15 +823,15 @@
         "id": "29",
         "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Clear cintilante prata",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Silver Ouro",
+        "condition": "Pasta",
+         "description": "**SILVER OURO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta metalizada Silver Ouro de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento metalizado dourado, com excelente resistência a lavagens. Oferece uma impressão brilhante e duradoura, conferindo um visual elegante e sofisticado às estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de tinta metalizada.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento metalizado dourado.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Silver Ouro com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2779.jpeg?alt=media&token=30af5e44-dc7c-4f71-b310-6770edf68fcc" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2780.jpeg?alt=media&token=140dfad8-836c-46cb-a5ff-02dda0ec8dee" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2781.jpeg?alt=media&token=31c979db-3e44-400b-9776-9378ca0012ff" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2782.jpeg?alt=media&token=2d649d0f-d69c-462d-8ea6-b0b643c17f02" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2783.jpeg?alt=media&token=4f3e2e52-7818-4577-a50c-b48e9a2b2d06" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2782.jpeg?alt=media&token=2d649d0f-d69c-462d-8ea6-b0b643c17f02" }
         ],
         "options": [
             {
@@ -845,15 +852,15 @@
         "id": "30",
         "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Clear cintilante ouro",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Silver prata",
+        "condition": "Pasta",
+         "description": "**SILVER PRATA (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta metalizada Silver Prata de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento metalizado prateado, com excelente resistência a lavagens. Oferece uma impressão brilhante e duradoura, conferindo um visual moderno e sofisticado às estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de tinta metalizada.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento metalizado prateado.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Silver Prata com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2783.jpeg?alt=media&token=4f3e2e52-7818-4577-a50c-b48e9a2b2d06" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2784.jpeg?alt=media&token=b4b72635-b0dd-4918-92ba-77f6a8310f7c" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2785.jpeg?alt=media&token=cb226cf9-d9f0-4f32-ad3f-5956613812ea" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2786.jpeg?alt=media&token=bd08cbf4-81d5-43d8-ab2f-c8eed71a0fc9" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2787.jpeg?alt=media&token=f96e0ff7-6b81-4030-8902-ff2d4bb6ca78" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2786.jpeg?alt=media&token=bd08cbf4-81d5-43d8-ab2f-c8eed71a0fc9" }
         ],
         "options": [
             {
@@ -875,14 +882,14 @@
         "subCategory": "Plastisol",
         "category": "Tintas",
         "name": "Base relevo incolor",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "condition": "Pasta",
+        "description": "**BASE RELEVO INCOLOR (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nBase relevo incolor de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando um acabamento em relevo transparente, com excelente resistência a lavagens. Oferece uma impressão nítida e duradoura, conferindo um efeito tridimensional às estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de relevo incolor.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito em relevo transparente.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Base Relevo Incolor com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2788.jpeg?alt=media&token=ae1fb691-57b3-442e-a4a2-afa1d7255427" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2789.jpeg?alt=media&token=f58f86ef-7144-4746-bb6e-dca36a0837bf" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2790.jpeg?alt=media&token=ee29d457-6b2f-4c6e-b7c9-e6b4f3e970c5" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2791.jpeg?alt=media&token=d5ab959e-24f3-4d8b-ab7a-f96688f25613" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2775.jpeg?alt=media&token=aac19338-56aa-4f45-bd38-741a889d561d" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2776.jpeg?alt=media&token=59bb2eb4-37b8-46ab-b0fb-bbd2ebd8aaf0" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2777.jpeg?alt=media&token=cf7fd696-c40c-444e-a7e0-00b73ccfd8e1" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2778.jpeg?alt=media&token=5349e68f-50de-4b50-9013-b6d0c5689fbf" }
         ],
         "options": [
             {
@@ -903,15 +910,16 @@
         "id": "32",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Gel incolor cristal",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Cola de flocado - (Plastflock)",
+        "condition": "Pasta",
+       "description": "**COLA DE FLOCADO (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nCola de flocado de alta qualidade, especialmente desenvolvida para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, proporcionando uma excelente aderência do flocado, com durabilidade e resistência a lavagens. Oferece uma aplicação uniforme, garantindo um acabamento suave e profissional.\n\n**Indicações de Uso:**\n\n- Preparação de superfícies para aplicação de flocado em serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito flocado durável.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Cola de Flocado com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2791.jpeg?alt=media&token=d5ab959e-24f3-4d8b-ab7a-f96688f25613" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2792.jpeg?alt=media&token=313a9254-0abd-4cab-8b5f-38c0a0091e47" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2793.jpeg?alt=media&token=11ca2195-207f-442e-b976-334baad9efe6" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2794.jpeg?alt=media&token=7feebea4-e3f5-46ba-bff5-afab382fe677" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2795.jpeg?alt=media&token=3833ab1e-65f9-445d-921e-605aa7af64de" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2794.jpeg?alt=media&token=7feebea4-e3f5-46ba-bff5-afab382fe677" }
+     
         ],
         "options": [
             {
@@ -932,15 +940,16 @@
         "id": "33",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Plastisol branco fosco",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Clear lycra",
+        "condition": "Pasta",
+         "description": "**CLEAR LYCRA (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Clear Lycra de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em tecidos de Lycra e outros materiais elásticos. Proporciona um acabamento transparente e flexível, com excelente resistência a lavagens e ao estiramento. Oferece uma impressão nítida e duradoura, mantendo a elasticidade natural do tecido.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em tecidos elásticos.\n- Aplicação em tecidos de Lycra, Spandex e mistos com alta elasticidade.\n- Ideal para criar estampas com acabamento transparente e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Clear Lycra com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2795.jpeg?alt=media&token=3833ab1e-65f9-445d-921e-605aa7af64de" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2796.jpeg?alt=media&token=4a3800b0-8162-4b62-a0eb-a59a64edcaeb" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2797.jpeg?alt=media&token=63894a79-1df7-4c5d-9bef-ce99624465f9" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2798.jpeg?alt=media&token=d32da37a-3077-47cd-8be2-87797669d335" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2799.jpeg?alt=media&token=0a340dfd-fa32-42c2-9640-2721b722b217" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2798.jpeg?alt=media&token=d32da37a-3077-47cd-8be2-87797669d335" }
+            
         ],
         "options": [
             {
@@ -961,15 +970,16 @@
         "id": "34",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Relevo 3D branco",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Mix lycra",
+        "condition": "Pasta",
+        "description": "**MIX LYCRA (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Mix Lycra de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em tecidos de Lycra e outros materiais elásticos. Proporciona um acabamento vibrante e flexível, com excelente resistência a lavagens e ao estiramento. Oferece uma impressão nítida e duradoura, mantendo a elasticidade natural do tecido.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em tecidos elásticos.\n- Aplicação em tecidos de Lycra, Spandex e mistos com alta elasticidade.\n- Ideal para criar estampas com acabamento vibrante e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Mix Lycra com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2799.jpeg?alt=media&token=0a340dfd-fa32-42c2-9640-2721b722b217" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2800.jpeg?alt=media&token=b0878082-5b10-4d21-96ba-9e79ffbae392" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2801.jpeg?alt=media&token=ffe44d50-25ff-47d5-a118-614a31c66790" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2802.jpeg?alt=media&token=f2eba1b5-80f8-4a65-9689-dade9ac8822f" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2803.jpeg?alt=media&token=ecb4da2e-5e25-4130-aa7d-9eec527ceebd" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2802.jpeg?alt=media&token=f2eba1b5-80f8-4a65-9689-dade9ac8822f" }
+         
         ],
         "options": [
             {
@@ -990,15 +1000,16 @@
         "id": "35",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Relevo 3D mix",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Branco t-ws lycra",
+        "condition": "Pasta",
+        "description": "**BRANCO T-WS LYCRA (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Branco T-WS Lycra de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em tecidos de Lycra e outros materiais elásticos. Proporciona um acabamento branco opaco e flexível, com excelente resistência a lavagens e ao estiramento. Oferece uma impressão nítida e duradoura, mantendo a elasticidade natural do tecido.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em tecidos elásticos.\n- Aplicação em tecidos de Lycra, Spandex e mistos com alta elasticidade.\n- Ideal para criar estampas com acabamento branco opaco e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Branco T-WS Lycra com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2803.jpeg?alt=media&token=ecb4da2e-5e25-4130-aa7d-9eec527ceebd" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2804.jpeg?alt=media&token=0f5420da-bc93-4a93-bb93-e5e29ec5a87f" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2805.jpeg?alt=media&token=b128dd2f-e860-4c30-81bd-0e13ef1d651a" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2806.jpeg?alt=media&token=4e8f64c2-e9ad-470e-920e-c33ba26e6161" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2807%202.jpeg?alt=media&token=4b849513-7514-4f94-b3e0-20c670c9bda4" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2806.jpeg?alt=media&token=4e8f64c2-e9ad-470e-920e-c33ba26e6161" }
+            
         ],
         "options": [
             {
@@ -1019,15 +1030,16 @@
         "id": "36",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Gel silicon incolor",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Clear",
+        "condition": "Pasta",
+        "description": "**CLEAR PLASTISOL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Clear Plastisol de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento transparente e flexível, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para sobreposições e efeitos especiais.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento transparente e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Clear Plastisol com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2807%202.jpeg?alt=media&token=4b849513-7514-4f94-b3e0-20c670c9bda4" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2808%202.jpeg?alt=media&token=8e3bfd0d-16cd-48b7-8952-cd6d270fb009" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2809%202.jpeg?alt=media&token=cd522901-6632-4082-af29-d05056e9e238" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2810%202.jpeg?alt=media&token=a678ef58-eb24-43c3-a26f-a7d028271fdd" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2811%202.jpeg?alt=media&token=f32803a2-4641-4b2b-afc9-628e8c2c3187" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2810%202.jpeg?alt=media&token=a678ef58-eb24-43c3-a26f-a7d028271fdd" }
+            
         ],
         "options": [
             {
@@ -1048,15 +1060,16 @@
         "id": "37",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Plastisol mix",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Mix",
+        "condition": "Pasta",
+        "description": "**MIX PLASTISOL (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Mix Plastisol de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento vibrante e flexível, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar estampas coloridas e detalhadas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com acabamento vibrante e flexível.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Mix Plastisol com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2811%202.jpeg?alt=media&token=f32803a2-4641-4b2b-afc9-628e8c2c3187" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2812%202.jpeg?alt=media&token=3265c5f8-4792-48d3-a19e-a78bbb7a9dbc" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2813%202.jpeg?alt=media&token=11c4b8ec-700e-46d6-b4f3-94a41478217c" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2814%202.jpeg?alt=media&token=afad8b79-5707-491a-94f0-c30c3f1d5355" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2815%202.jpeg?alt=media&token=28b0f15b-5cf0-4b2d-a531-723e841983d3" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2814%202.jpeg?alt=media&token=afad8b79-5707-491a-94f0-c30c3f1d5355" }
+          
         ],
         "options": [
             {
@@ -1075,17 +1088,18 @@
     },
    {
         "id": "38",
-        "subCategory": "Plastisol",
+        "subCategory": "Base d'água",
         "category": "Tintas",
-        "name": "Plastisol clear",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Gel silicon",
+        "condition": "Pasta",
+         "description": "**GEL SILICON (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nGel de silicone de alta qualidade, especialmente desenvolvido para serigrafia e estamparia. Ideal para uso em tecidos de algodão, mistos e sintéticos, oferecendo um acabamento suave e durável, com excelente resistência a lavagens. Proporciona uma impressão nítida e evita o desbotamento.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia à base de gel de silicone.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com toque suave e alta durabilidade.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Gel Silicon com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2815%202.jpeg?alt=media&token=28b0f15b-5cf0-4b2d-a531-723e841983d3" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2816%202.jpeg?alt=media&token=99d71197-c480-4d2d-a29b-e7edc86d38c2" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2817%202.jpeg?alt=media&token=bed867de-6a20-45e7-8a8c-54fcbfbe225d" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2818%202.jpeg?alt=media&token=ae1ad89e-5470-4f6e-8ce9-9eee9fcc23ce" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2819%202.jpeg?alt=media&token=365c0d4b-5d75-4d73-8ffc-16a7f5122001" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2818%202.jpeg?alt=media&token=ae1ad89e-5470-4f6e-8ce9-9eee9fcc23ce" }
+           
         ],
         "options": [
             {
@@ -1106,15 +1120,15 @@
         "id": "39",
         "subCategory": "Plastisol",
         "category": "Tintas",
-        "name": "Plastflock (Cola de flocado Plastisol)",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "name": "Relevo 3D mix",
+        "condition": "Pasta",
+         "description": "**RELEVO 3D MIX (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nTinta Relevo 3D Mix de alta qualidade, especialmente desenvolvida para serigrafia e estamparia em diversos tipos de tecidos. Proporciona um acabamento em relevo tridimensional e flexível, com excelente resistência a lavagens e durabilidade. Oferece uma impressão nítida e duradoura, ideal para criar efeitos de relevo em estampas.\n\n**Indicações de Uso:**\n\n- Preparação de tintas de serigrafia para aplicação em diversos tipos de tecidos.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para criar estampas com efeito de relevo tridimensional.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Relevo 3D Mix com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
+             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2819%202.jpeg?alt=media&token=365c0d4b-5d75-4d73-8ffc-16a7f5122001" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2820%202.jpeg?alt=media&token=9bb178d8-8530-4006-91b3-504c8c052151" },
             { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2821%202.jpeg?alt=media&token=b271ba5f-a620-45c8-bd7f-ef7dbee91a97" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2822%202.jpeg?alt=media&token=5dbc4fe6-df5a-4801-bb8f-39ed025fd596" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2823%202.jpeg?alt=media&token=fd35895b-c3b7-4331-a3ed-d4db19cdb473" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2822%202.jpeg?alt=media&token=5dbc4fe6-df5a-4801-bb8f-39ed025fd596" }
         ],
         "options": [
             {
@@ -1133,17 +1147,17 @@
     },
     {
         "id": "40",
-        "subCategory": "Plastisol",
-        "category": "Tintas",
-        "name": "Base relevo branco",
-        "condition": "pasta",
-        "description": "txttxt txttxt txttxt txttxt txttxt v txttxt txttxt txttxt txttxt txttxt txttxt txttxt",
+        "subCategory": "Fixador",
+        "category": "Aditivos",
+        "name": "Fixador",
+        "condition": "Liquido",
+         "description": "**FIXADOR (ADITIVO) (ESTAMPARIA/TÊXTIL)**\n\n**Descrição:**\nAditivo fixador de alta qualidade, especialmente desenvolvido para serigrafia e estamparia em diversos tipos de tecidos. Proporciona uma excelente fixação das tintas, aumentando a durabilidade e a resistência das estampas a lavagens. Ideal para ser usado em conjunto com outras tintas para melhorar a adesão e a permanência da impressão no tecido.\n\n**Indicações de Uso:**\n\n- Aditivo para melhorar a fixação de tintas em serigrafia.\n- Aplicação em tecidos de algodão, poliéster, mistos e sintéticos.\n- Ideal para aumentar a durabilidade e a resistência das estampas a lavagens.\n\n**Armazenamento:**\nArmazenar em local fresco e arejado, evitando a exposição direta ao sol e ao calor excessivo para preservar a qualidade do produto.\n\n**Disponibilidade:**\nEste anúncio refere-se a uma unidade de Fixador (Aditivo) com disponibilidade imediata para envio.\n\n**Envio:**\nO pedido será enviado em até 1 dia útil após a confirmação do pagamento.\n\nCaso tenha alguma dúvida, sinta-se à vontade para perguntar no campo abaixo.",
         "quantity": 20,
         "images": [
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2824%202.jpeg?alt=media&token=5d6a056f-c07a-4911-bb81-f5f21995934c" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2825%202.jpeg?alt=media&token=36e6215e-5ee9-4823-9c2d-9c1a85abf123" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2826%202.jpeg?alt=media&token=75adcbe7-3c6a-4dc6-8709-824f96b6b742" },
-            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2827%202.jpeg?alt=media&token=00d23554-bbd1-414a-8e69-d8f561a4adc7" }
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2616%20Large.jpeg?alt=media&token=95ef4f79-8f6a-4790-b5d2-a90a5f05f121" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2617%20Large.jpeg?alt=media&token=e821e6b2-bdc2-4a77-82ac-ae1dc6f0a1d7" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2618%20Large.jpeg?alt=media&token=17122099-aab1-47c6-ac11-fb30a13409cd" },
+            { "imageUrl": "https://firebasestorage.googleapis.com/v0/b/crispmix-ecommerce.appspot.com/o/productsv1%2FIMG_2619%20Large.jpeg?alt=media&token=01818540-f5bf-4bcc-b473-3838040e7554" }
         ],
         "options": [
             {
@@ -1160,4 +1174,5 @@
             }
         ]
     }
+    
 ]
