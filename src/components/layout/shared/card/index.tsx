@@ -14,6 +14,7 @@ import { getCategoryIcon } from '@/utils/getCategoryIcon';
 import OpenInformationComponent from '../openInformation';
 import { CartDBService } from '@/service/cache/cart_db.service';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface CardProductProps {
   imageUrl: string;
@@ -32,6 +33,7 @@ export function CardProduct({
   price,
   id,
 }: CardProductProps) {
+  const t = useTranslations('Home.card');
   const categoryIcon = getCategoryIcon(category);
 
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -87,26 +89,24 @@ export function CardProduct({
             variant="outline"
             onClick={() => console.log(id)}
           >
-            Informações sobre o produto?
+            {t('information')}
           </Button>
         </Link>
         <Button
           onClick={handleOpenDialog}
           className="bg-custom-green text-black  hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105"
         >
-          Adquirir
+          {t('buy')}
         </Button>
         {isDialogOpen && (
           <OpenInformationComponent
-            title="Continuar comprando?"
+            warnText={t('dialogBuy.warn')}
+            title={t('dialogBuy.title')}
             onClose={handleCloseDialog}
-            buttonText="Quero continuar comprando mais itens."
+            buttonText={t('dialogBuy.buyMore')}
             content={
               <div>
-                <p className="text-md mb-12">
-                  O item será adicionado ao carrinho, caso queira continuar
-                  explorando o catálogo.
-                </p>
+                <p className="text-md mb-12">{t('dialogBuy.description')}</p>
               </div>
             }
             children={
@@ -116,7 +116,7 @@ export function CardProduct({
                     onClick={addToStorage}
                     className="bg-custom-green text-black hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105"
                   >
-                    Adquirir agora
+                    {t('dialogBuy.buyNow')}
                   </Button>
                 </Link>
               </div>

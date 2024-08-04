@@ -4,7 +4,11 @@ import { ShoppingCartIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
-export default function CartComponent() {
+interface HeaderProps {
+  title: string;
+}
+
+export default function CartComponent({ title }: HeaderProps) {
   const cartCount = useLiveQuery(() => {
     const cartDB = new CartDBService();
     return cartDB.getCountProducts();
@@ -22,7 +26,7 @@ export default function CartComponent() {
             fill="bg-custom-dark"
           />
         </div>
-        <span className="font-semibold">Carrinho</span>
+        <span className="font-semibold">{title}</span>
       </div>
     </Link>
   );

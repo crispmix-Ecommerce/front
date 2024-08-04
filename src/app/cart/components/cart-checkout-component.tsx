@@ -4,6 +4,7 @@ import { ProductDB } from '@/models/ProductDB';
 import { CartDBService } from '@/service/cache/cart_db.service';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { TicketIcon, ForwardIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 interface CartCheckouComponentProps {
@@ -11,6 +12,8 @@ interface CartCheckouComponentProps {
 }
 
 export function CartCheckouComponent({ products }: CartCheckouComponentProps) {
+  const t = useTranslations('Cart');
+
   const [isDialogOpen, setIsDialogOpen] = React.useState(false);
 
   const handleOpenDialog = () => {
@@ -74,11 +77,13 @@ ${orderProducts?.join('\n')}
   return (
     <div className="w-full my-4 border-2 border-custom-gray rounded">
       <div className="flex flex-col justify-center">
-        <p className="py-4 px-2 border-b-2 border-custom-gray">Resumo</p>
+        <p className="py-4 px-2 border-b-2 border-custom-gray">{t('resume')}</p>
         <div>
           <div className="flex justify-between px-2 ">
             <div>
-              <p className="text-lg font-bold">Produtos({totalProducts})</p>
+              <p className="text-lg font-bold">
+                {t('products')}({totalProducts})
+              </p>
             </div>
             <p>R$ {somaTotal}</p>
           </div>
@@ -91,7 +96,7 @@ ${orderProducts?.join('\n')}
                 aria-hidden="true"
               />
             </div>
-            <p className="ml-2">Como funciona o processo de compra?</p>
+            <p className="ml-2">{t('processPurchasing')}</p>
           </div>
           <div className="flex cursor-pointer hover:text-blue-700  text-blue-900">
             <div>
@@ -104,20 +109,21 @@ ${orderProducts?.join('\n')}
               onClick={handleOpenDialog}
               className="ml-2"
             >
-              Cupom de desconto?
+              {t('discountCoupon')}
             </p>
           </div>
           {isDialogOpen && (
             <OpenInformationComponent
-              title="Utilizar cupom de desconto?"
+              warnText={t('discount.warn')}
+              title={t('discount.title')}
               onClose={handleCloseDialog}
-              buttonText="fechar"
+              buttonText={t('discount.close')}
               content={
                 <div className="py-4 ">
-                  <p>Adicione seu cumpo no campo abaixo.</p>
+                  <p>{t('discount.description')}</p>
                   <input
                     type="text"
-                    placeholder="Código do cupom"
+                    placeholder={t('discount.couponCode')}
                     className="p-2 my-2 border border-gray-300 rounded-md focus:outline-none focus:border-custom-blue"
                     maxLength={6}
                   />
@@ -126,7 +132,7 @@ ${orderProducts?.join('\n')}
               children={
                 <div className="flex items-center space-x-2">
                   <Button className="bg-custom-blue text-black hover:bg-green-300 hover:bg-opacity-50 hover:text-md transition duration-300 ease-in-out transform hover:scale-105">
-                    Aplicar
+                    {t('discount.apply')}
                   </Button>
                 </div>
               }
@@ -135,7 +141,7 @@ ${orderProducts?.join('\n')}
         </div>
         <div className="px-2 my-2">
           <button className="flex py-2 px-4 bg-custom-green hover:bg-blue-500 text-white font-bold rounded">
-            <p className="mr-2"> Entrar em contato</p>
+            <p className="mr-2">{t('contact')}</p>
             <img
               src="/zapicon.png"
               alt="Whatsapp icon"
@@ -144,7 +150,7 @@ ${orderProducts?.join('\n')}
           </button>
         </div>
         <div className="flex pt-4 px-2  justify-between">
-          <h3 className="text-lg font-bold ">Total</h3>
+          <h3 className="text-lg font-bold ">{t('total')}</h3>
           <h3 className="pb-4">R$ {somaTotal}</h3>
         </div>
       </div>
@@ -153,7 +159,7 @@ ${orderProducts?.join('\n')}
           onClick={handleConvertTextAscii}
           className="w-full py-4 bg-blue-400 hover:bg-blue-500 text-white font-bold rounded"
         >
-          Continuar a compra
+          {t('keepBuying')}
         </button>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { CartDBService } from '@/service/cache/cart_db.service';
 import { getCategoryIcon } from '@/utils/getCategoryIcon';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import React from 'react';
 interface ProductDetailPageProps {
@@ -23,6 +24,7 @@ export default function ProducCounterItem({
   productPrice,
   quantity,
 }: ProductDetailPageProps) {
+  const t = useTranslations('Cart.items');
   const removeProductCart = () => {
     const cartService = new CartDBService();
     cartService.removeProduct(id);
@@ -85,10 +87,10 @@ export default function ProducCounterItem({
               onClick={removeProductCart}
               className="cursor-pointer mb-2 hover:text-custom-pink"
             >
-              Excluir
+              {t('delete')}
             </p>
             <p className="text-blue-400 mb-2 hover:text-blue-500 cursor-pointer">
-              Comprar
+              {t('buy')}
             </p>
             <div className="flex flex-row space-x-2 items-center">
               <div className="flex border-custom-gray border-2 rounded items-center gap-4">

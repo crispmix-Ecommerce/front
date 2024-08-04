@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 interface ProductDetailPageProps {
@@ -18,6 +19,7 @@ export function ProductDetailPage({
 
   productParcelPrice,
 }: ProductDetailPageProps) {
+  const t = useTranslations('Product.detail');
   const [rating, setRating] = useState(5);
 
   const handleClick = (value: number) => {
@@ -53,14 +55,16 @@ export function ProductDetailPage({
       </div>
       <div className="relative my-4">
         <span className="bg-custom-orange border-8 border-custom-orange rounded">
-          Promoção!
+          {t('promotion')}
         </span>
       </div>
       {productPrice !== null && (
         <div>
           <p className="text-4xl">R$ {productPrice}</p>
-          <p>em até 12x de R$ {productParcelPrice}</p>
-          <p>no cartão de crédito</p>
+          <p>
+            {t('inUpTo')} 12x {t('of')} R$ {productParcelPrice}
+          </p>
+          <p>{t('creditCard')}</p>
         </div>
       )}
     </div>

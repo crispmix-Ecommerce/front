@@ -1,0 +1,158 @@
+{
+  "Header": {
+    "searchPlaceholder": "Pesquise produtos aqui",
+    "empty": "Nenhum resultado encontrado",
+    "cart": "Carrinho",
+    "navigationSubmenu": {
+      "additive": {
+        "title": "Aditivos",
+        "waterBased": {
+          "title":"A Base d'água",
+          "description": "Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas."
+        },
+        "plastisol": {
+          "title":"Plastisol",
+          "description": "Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada."
+        },
+        "promotion": {
+          "title":"Promoção",
+          "description": "Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida."
+        }
+      },
+      "pigments": {
+        "title": "Pigmentos",
+        "waterBased": {
+          "title":"A Base d'água",
+          "description": "Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas."
+        },
+        "plastisol": {
+          "title":"Plastisol",
+          "description": "Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada."
+        },
+        "promotion": {
+          "title":"Promoção",
+          "description": "Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida."
+        }
+      },
+      "paints": {
+        "title": "Tintas",
+        "waterBased": {
+          "title":"A Base d'água",
+          "description": "Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas."
+        },
+        "plastisol": {
+          "title":"Plastisol",
+          "description": "Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada."
+        },
+        "promotion": {
+          "title":"Promoção",
+          "description": "Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "service": {
+      "title": "Atendimento",
+      "contactNumber": "(99) 99999-9999",
+      "email": "contato@teste.com",
+      "typeSchedule": "Horário de atendimento on-line",
+      "schedule": "Segunda à sexta das 8h às 18h"
+    },
+    "quickAccess": {
+      "title": "Acesso rápido",
+      "home": "Início",
+      "myRequests": "Meus pedidos",
+      "products": "Produtos",
+      "howToPlaceAnOrder": "Aprenda a fazer os seus pedidos"
+    },
+    "institutional": {
+      "title": "Institucional",
+      "aboutUs": "Sobre a Crispmix",
+      "privacyPolicy": "Política de privacidade"
+    },
+    "mostViewed": {
+      "title": "Mais acessados",
+      "product1": "Tinta Crispmix branco TWS",
+      "product2": "Pigmento Crispmix Amarelo Canário",
+      "product3": "Aditivo Crispmix Ligante",
+      "product4": "Tinta Crispmix Mix"
+    }
+  },
+  "Home": {
+    "card": {
+      "information": "Informações sobre o produto?",
+      "buy": "Adquirir",
+      "dialogBuy": {
+        "warn": "Aviso",
+        "title": "Continuar comprando?",
+        "description": "O item será adicionado ao carrinho, caso queira continuar explorando o catálogo.",
+        "buyMore": "Quero continuar comprando mais itens.",
+        "buyNow": "Adquirir agora"
+      }
+    }
+  },
+  "ProductList": {
+    "loading": "Carregando...",
+    "error": "Erro ao carregar os produtos: {error}"
+  },
+  "Product": {
+    "nav": "Home / E-Commerce",
+    "loading": "Carregando...",
+    "error": "Erro ao carregar o produto: {error}",
+    "checkout": {
+      "shipping": "Envio para todo o Brasil",
+      "quantity": "Quantidade",
+      "maxQuantity": "Máximo de {max} unidades",
+      "description": "Para comprar em atacado, entre em contato com um de nossos consultores. Você ira receber uma tabela de preços personalizada e exclusiva.",
+      "contact": "Entre em contato",
+      "stock": "Estoque disponível",
+      "shippingTurbo": "Entrega turbo para Vale do Itajaí",
+      "turbo": "Turbo",
+      "buy": "Comprar",
+      "buyMore": "Adicionar ao carrinho",
+      "guarantedPurchase": "Compra garantida por CRISPMIX LTDA.",
+      "guarantee": "3 meses de garantia de fábrica."
+    },
+    "detail": {
+      "promotion": "Promoção!",
+      "inUpTo": "em até",
+      "of": "de",
+      "creditCard": "no cartão de crédito"
+    }
+  },
+  "Cart": {
+    "cartEmpty": "Não há itens adicionados ao carrinho ainda :C",
+    "resume": "Resumo",
+    "products": "Produtos",
+    "processPurchasing": "Como funciona o processo de compra?",
+    "discountCoupon": "Cupom de desconto?",
+    "contact": "Entre em contato",
+    "total": "Total",
+    "keepBuying": "Continuar a comprando",
+    "items": {
+      "buy": "Comprar",
+      "delete": "Excluir"
+    },
+    "discount": {
+      "warn": "Aviso",
+      "title": "Utilizar cupom de desconto?",
+      "description": "Adicione seu cupom no campo abaixo",
+      "couponCode": "Código do cupom",
+      "close": "Fechar",
+      "apply": "Aplicar"
+    }
+  }
+}

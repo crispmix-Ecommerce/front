@@ -2,6 +2,7 @@ import React from 'react';
 import { AlertCircleIcon } from 'lucide-react';
 
 interface OpenInformationComponentProps {
+  warnText: string;
   title: string;
   content: React.ReactNode;
   buttonText: string;
@@ -10,6 +11,7 @@ interface OpenInformationComponentProps {
 }
 
 export default function OpenInformationComponent({
+  warnText,
   title,
   content,
   buttonText,
@@ -29,7 +31,7 @@ export default function OpenInformationComponent({
                   aria-hidden="true"
                 />
               </div>
-              <p className="ml-2">Aviso</p>
+              <p className="ml-2">{warnText}</p>
             </div>
           </div>
         </div>

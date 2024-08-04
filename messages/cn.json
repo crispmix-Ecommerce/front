@@ -1,0 +1,158 @@
+{
+  "Header": {
+    "searchPlaceholder": "在这里搜索产品",
+    "empty": "未找到结果",
+    "cart": "购物车",
+    "navigationSubmenu": {
+      "additive": {
+        "title": "添加剂",
+        "waterBased": {
+          "title": "水性",
+          "description": "探索我们专注于水性解决方案的化学品系列。发现各种工业和科学需求的化合物、反应和应用。"
+        },
+        "plastisol": {
+          "title": "塑料树脂",
+          "description": "了解塑料树脂，这是一种用于涂层和柔性材料的多用途化学化合物。通过突出的预览发现其性质和用途。"
+        },
+        "promotion": {
+          "title": "促销",
+          "description": "跟踪化学品的促销活动，具有可视化进度指示器。以信息性和互动的方式探索优惠和折扣。"
+        },
+        "all": {
+          "title": "所有",
+          "description": "通过滚动区域高效地探索我们完整的化学品列表。快速轻松地发现有关不同化合物的信息。"
+        }
+      },
+      "pigments": {
+        "title": "颜料",
+        "waterBased": {
+          "title": "水性",
+          "description": "探索我们专注于水性解决方案的化学品系列。发现各种工业和科学需求的化合物、反应和应用。"
+        },
+        "plastisol": {
+          "title": "塑料树脂",
+          "description": "了解塑料树脂，这是一种用于涂层和柔性材料的多用途化学化合物。通过突出的预览发现其性质和用途。"
+        },
+        "promotion": {
+          "title": "促销",
+          "description": "跟踪化学品的促销活动，具有可视化进度指示器。以信息性和互动的方式探索优惠和折扣。"
+        },
+        "all": {
+          "title": "所有",
+          "description": "通过滚动区域高效地探索我们完整的化学品列表。快速轻松地发现有关不同化合物的信息。"
+        }
+      },
+      "paints": {
+        "title": "油漆",
+        "waterBased": {
+          "title": "水性",
+          "description": "探索我们专注于水性解决方案的化学品系列。发现各种工业和科学需求的化合物、反应和应用。"
+        },
+        "plastisol": {
+          "title": "塑料树脂",
+          "description": "了解塑料树脂，这是一种用于涂层和柔性材料的多用途化学化合物。通过突出的预览发现其性质和用途。"
+        },
+        "promotion": {
+          "title": "促销",
+          "description": "跟踪化学品的促销活动，具有可视化进度指示器。以信息性和互动的方式探索优惠和折扣。"
+        },
+        "all": {
+          "title": "所有",
+          "description": "通过滚动区域高效地探索我们完整的化学品列表。快速轻松地发现有关不同化合物的信息。"
+        }
+      }
+    }
+  },
+  "Footer": {
+    "service": {
+      "title": "客户服务",
+      "contactNumber": "(99) 99999-9999",
+      "email": "contact@test.com",
+      "typeSchedule": "在线服务时间",
+      "schedule": "周一至周五，上午8点至下午6点"
+    },
+    "quickAccess": {
+      "title": "快速访问",
+      "home": "首页",
+      "myRequests": "我的订单",
+      "products": "产品",
+      "howToPlaceAnOrder": "学习如何下订单"
+    },
+    "institutional": {
+      "title": "机构",
+      "aboutUs": "关于Crispmix",
+      "privacyPolicy": "隐私政策"
+    },
+    "mostViewed": {
+      "title": "最受欢迎",
+      "product1": "Crispmix白色TWS油漆",
+      "product2": "Crispmix金丝雀黄颜料",
+      "product3": "Crispmix粘合剂添加剂",
+      "product4": "Crispmix Mix油漆"
+    }
+  },
+  "Home": {
+    "card": {
+      "information": "产品信息？",
+      "buy": "购买",
+      "dialogBuy": {
+        "warn": "警告",
+        "title": "继续购物？",
+        "description": "该商品将被添加到购物车中，如果您希望继续浏览目录。",
+        "buyMore": "我想继续购买更多商品。",
+        "buyNow": "立即购买"
+      }
+    }
+  },
+  "ProductList": {
+    "loading": "加载中...",
+    "error": "加载产品时出错: {error}"
+  },
+  "Product": {
+    "nav": "首页 / 电子商务",
+    "loading": "加载中...",
+    "error": "加载产品时出错: {error}",
+    "checkout": {
+      "shipping": "全国范围内配送",
+      "quantity": "数量",
+      "maxQuantity": "最多 {max} 单位",
+      "description": "要批量购买，请联系其中一位顾问。您将收到个性化和专属的价格表。",
+      "contact": "联系我们",
+      "stock": "现货",
+      "shippingTurbo": "快速配送至伊塔贾伊谷",
+      "turbo": "快速",
+      "buy": "购买",
+      "buyMore": "加入购物车",
+      "guarantedPurchase": "CRISPMIX LTDA. 保证购买",
+      "guarantee": "3个月工厂保修。"
+    },
+    "detail": {
+      "promotion": "促销！",
+      "inUpTo": "最多",
+      "of": "的",
+      "creditCard": "信用卡支付"
+    }
+  },
+  "Cart": {
+    "cartEmpty": "购物车中还没有添加任何商品 :C",
+    "resume": "摘要",
+    "products": "产品",
+    "processPurchasing": "购买流程是怎样的？",
+    "discountCoupon": "折扣券？",
+    "contact": "联系我们",
+    "total": "总计",
+    "keepBuying": "继续购物",
+    "items": {
+      "buy": "购买",
+      "delete": "删除"
+    },
+    "discount": {
+      "warn": "警告",
+      "title": "使用折扣券？",
+      "description": "在下方字段中添加您的优惠券",
+      "couponCode": "优惠券代码",
+      "close": "关闭",
+      "apply": "应用"
+    }
+  }
+}
