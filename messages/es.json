@@ -1,0 +1,158 @@
+{
+  "Header": {
+    "searchPlaceholder": "Busca productos aquí",
+    "empty": "No se encontraron resultados",
+    "cart": "Carrito",
+    "navigationSubmenu": {
+      "additive": {
+        "title": "Aditivos",
+        "waterBased": {
+          "title": "A Base de Agua",
+          "description": "Explora nuestra gama de productos químicos centrados en soluciones a base de agua. Descubre compuestos, reacciones y aplicaciones para satisfacer diversas necesidades industriales y científicas."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Conoce el plastisol, un compuesto químico versátil utilizado en recubrimientos y materiales flexibles. Descubre propiedades y usos a través de una vista previa destacada."
+        },
+        "promotion": {
+          "title": "Promoción",
+          "description": "Sigue las promociones de productos químicos con un indicador visual de progreso. Explora ofertas y descuentos de manera informativa e interactiva."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explora nuestra lista completa de productos químicos de manera eficiente usando el área de desplazamiento. Descubre información sobre diferentes compuestos de manera fácil y rápida."
+        }
+      },
+      "pigments": {
+        "title": "Pigmentos",
+        "waterBased": {
+          "title": "A Base de Agua",
+          "description": "Explora nuestra gama de productos químicos centrados en soluciones a base de agua. Descubre compuestos, reacciones y aplicaciones para satisfacer diversas necesidades industriales y científicas."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Conoce el plastisol, un compuesto químico versátil utilizado en recubrimientos y materiales flexibles. Descubre propiedades y usos a través de una vista previa destacada."
+        },
+        "promotion": {
+          "title": "Promoción",
+          "description": "Sigue las promociones de productos químicos con un indicador visual de progreso. Explora ofertas y descuentos de manera informativa e interactiva."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explora nuestra lista completa de productos químicos de manera eficiente usando el área de desplazamiento. Descubre información sobre diferentes compuestos de manera fácil y rápida."
+        }
+      },
+      "paints": {
+        "title": "Pinturas",
+        "waterBased": {
+          "title": "A Base de Agua",
+          "description": "Explora nuestra gama de productos químicos centrados en soluciones a base de agua. Descubre compuestos, reacciones y aplicaciones para satisfacer diversas necesidades industriales y científicas."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Conoce el plastisol, un compuesto químico versátil utilizado en recubrimientos y materiales flexibles. Descubre propiedades y usos a través de una vista previa destacada."
+        },
+        "promotion": {
+          "title": "Promoción",
+          "description": "Sigue las promociones de productos químicos con un indicador visual de progreso. Explora ofertas y descuentos de manera informativa e interactiva."
+        },
+        "all": {
+          "title": "Todos",
+          "description": "Explora nuestra lista completa de productos químicos de manera eficiente usando el área de desplazamiento. Descubre información sobre diferentes compuestos de manera fácil y rápida."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "service": {
+      "title": "Atención al Cliente",
+      "contactNumber": "(99) 99999-9999",
+      "email": "contacto@test.com",
+      "typeSchedule": "Horario de Atención en Línea",
+      "schedule": "De lunes a viernes de 8 am a 6 pm"
+    },
+    "quickAccess": {
+      "title": "Acceso Rápido",
+      "home": "Inicio",
+      "myRequests": "Mis Pedidos",
+      "products": "Productos",
+      "howToPlaceAnOrder": "Aprende a realizar tus pedidos"
+    },
+    "institutional": {
+      "title": "Institucional",
+      "aboutUs": "Sobre Crispmix",
+      "privacyPolicy": "Política de Privacidad"
+    },
+    "mostViewed": {
+      "title": "Más Vistos",
+      "product1": "Pintura Crispmix Blanca TWS",
+      "product2": "Pigmento Crispmix Amarillo Canario",
+      "product3": "Aditivo Crispmix Ligante",
+      "product4": "Pintura Crispmix Mix"
+    }
+  },
+  "Home": {
+    "card": {
+      "information": "¿Información sobre el producto?",
+      "buy": "Comprar",
+      "dialogBuy": {
+        "warn": "Advertencia",
+        "title": "¿Continuar comprando?",
+        "description": "El artículo se agregará al carrito si deseas seguir explorando el catálogo.",
+        "buyMore": "Quiero seguir comprando más artículos.",
+        "buyNow": "Comprar ahora"
+      }
+    }
+  },
+  "ProductList": {
+    "loading": "Cargando...",
+    "error": "Error al cargar los productos: {error}"
+  },
+  "Product": {
+    "nav": "Inicio / Comercio Electrónico",
+    "loading": "Cargando...",
+    "error": "Error al cargar el producto: {error}",
+    "checkout": {
+      "shipping": "Envío a todo Brasil",
+      "quantity": "Cantidad",
+      "maxQuantity": "Máximo de {max} unidades",
+      "description": "Para comprar al por mayor, contacta a uno de nuestros consultores. Recibirás una tabla de precios personalizada y exclusiva.",
+      "contact": "Contacta con nosotros",
+      "stock": "Stock disponible",
+      "shippingTurbo": "Entrega turbo para Vale do Itajaí",
+      "turbo": "Turbo",
+      "buy": "Comprar",
+      "buyMore": "Añadir al carrito",
+      "guarantedPurchase": "Compra garantizada por CRISPMIX LTDA.",
+      "guarantee": "3 meses de garantía de fábrica."
+    },
+    "detail": {
+      "promotion": "¡Promoción!",
+      "inUpTo": "en hasta",
+      "of": "de",
+      "creditCard": "en tarjeta de crédito"
+    }
+  },
+  "Cart": {
+    "cartEmpty": "No hay artículos añadidos al carrito aún :C",
+    "resume": "Resumen",
+    "products": "Productos",
+    "processPurchasing": "¿Cómo funciona el proceso de compra?",
+    "discountCoupon": "¿Cupón de descuento?",
+    "contact": "Contacta con nosotros",
+    "total": "Total",
+    "keepBuying": "Continuar comprando",
+    "items": {
+      "buy": "Comprar",
+      "delete": "Eliminar"
+    },
+    "discount": {
+      "warn": "Advertencia",
+      "title": "¿Utilizar cupón de descuento?",
+      "description": "Añade tu cupón en el campo abajo",
+      "couponCode": "Código del cupón",
+      "close": "Cerrar",
+      "apply": "Aplicar"
+    }
+  }
+}

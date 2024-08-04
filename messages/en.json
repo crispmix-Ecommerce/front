@@ -1,0 +1,158 @@
+{
+  "Header": {
+    "searchPlaceholder": "Search products here",
+    "empty": "No results found",
+    "cart": "Cart",
+    "navigationSubmenu": {
+      "additive": {
+        "title": "Additives",
+        "waterBased": {
+          "title": "Water-Based",
+          "description": "Explore our range of chemicals focusing on water-based solutions. Discover compounds, reactions, and applications to meet various industrial and scientific needs."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Learn about plastisol, a versatile chemical compound used in coatings and flexible materials. Discover properties and uses through a highlighted preview."
+        },
+        "promotion": {
+          "title": "Promotion",
+          "description": "Track chemical product promotions with a visual progress indicator. Explore offers and discounts in an informative and interactive manner."
+        },
+        "all": {
+          "title": "All",
+          "description": "Explore our complete list of chemicals efficiently using the scroll area. Discover information about different compounds easily and quickly."
+        }
+      },
+      "pigments": {
+        "title": "Pigments",
+        "waterBased": {
+          "title": "Water-Based",
+          "description": "Explore our range of chemicals focusing on water-based solutions. Discover compounds, reactions, and applications to meet various industrial and scientific needs."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Learn about plastisol, a versatile chemical compound used in coatings and flexible materials. Discover properties and uses through a highlighted preview."
+        },
+        "promotion": {
+          "title": "Promotion",
+          "description": "Track chemical product promotions with a visual progress indicator. Explore offers and discounts in an informative and interactive manner."
+        },
+        "all": {
+          "title": "All",
+          "description": "Explore our complete list of chemicals efficiently using the scroll area. Discover information about different compounds easily and quickly."
+        }
+      },
+      "paints": {
+        "title": "Paints",
+        "waterBased": {
+          "title": "Water-Based",
+          "description": "Explore our range of chemicals focusing on water-based solutions. Discover compounds, reactions, and applications to meet various industrial and scientific needs."
+        },
+        "plastisol": {
+          "title": "Plastisol",
+          "description": "Learn about plastisol, a versatile chemical compound used in coatings and flexible materials. Discover properties and uses through a highlighted preview."
+        },
+        "promotion": {
+          "title": "Promotion",
+          "description": "Track chemical product promotions with a visual progress indicator. Explore offers and discounts in an informative and interactive manner."
+        },
+        "all": {
+          "title": "All",
+          "description": "Explore our complete list of chemicals efficiently using the scroll area. Discover information about different compounds easily and quickly."
+        }
+      }
+    }
+  },
+  "Footer": {
+    "service": {
+      "title": "Customer Service",
+      "contactNumber": "(99) 99999-9999",
+      "email": "contact@test.com",
+      "typeSchedule": "Online Service Hours",
+      "schedule": "Monday to Friday from 8am to 6pm"
+    },
+    "quickAccess": {
+      "title": "Quick Access",
+      "home": "Home",
+      "myRequests": "My Orders",
+      "products": "Products",
+      "howToPlaceAnOrder": "Learn how to place your orders"
+    },
+    "institutional": {
+      "title": "Institutional",
+      "aboutUs": "About Crispmix",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "mostViewed": {
+      "title": "Most Viewed",
+      "product1": "Crispmix White TWS Paint",
+      "product2": "Crispmix Canary Yellow Pigment",
+      "product3": "Crispmix Binder Additive",
+      "product4": "Crispmix Mix Paint"
+    }
+  },
+  "Home": {
+    "card": {
+      "information": "Product information?",
+      "buy": "Buy",
+      "dialogBuy": {
+        "warn": "Warning",
+        "title": "Continue shopping?",
+        "description": "The item will be added to the cart if you want to continue exploring the catalog.",
+        "buyMore": "I want to continue buying more items.",
+        "buyNow": "Buy now"
+      }
+    }
+  },
+  "ProductList": {
+    "loading": "Loading...",
+    "error": "Error loading products: {error}"
+  },
+  "Product": {
+    "nav": "Home / E-Commerce",
+    "loading": "Loading...",
+    "error": "Error loading the product: {error}",
+    "checkout": {
+      "shipping": "Shipping throughout Brazil",
+      "quantity": "Quantity",
+      "maxQuantity": "Maximum of {max} units",
+      "description": "To purchase wholesale, contact one of our consultants. You will receive a personalized and exclusive price list.",
+      "contact": "Contact us",
+      "stock": "Available stock",
+      "shippingTurbo": "Turbo delivery for Vale do Itajaí",
+      "turbo": "Turbo",
+      "buy": "Buy",
+      "buyMore": "Add to cart",
+      "guarantedPurchase": "Purchase guaranteed by CRISPMIX LTDA.",
+      "guarantee": "3 months factory warranty."
+    },
+    "detail": {
+      "promotion": "Promotion!",
+      "inUpTo": "in up to",
+      "of": "of",
+      "creditCard": "on credit card"
+    }
+  },
+  "Cart": {
+    "cartEmpty": "No items added to the cart yet :C",
+    "resume": "Summary",
+    "products": "Products",
+    "processPurchasing": "How does the purchasing process work?",
+    "discountCoupon": "Discount coupon?",
+    "contact": "Contact us",
+    "total": "Total",
+    "keepBuying": "Continue shopping",
+    "items": {
+      "buy": "Buy",
+      "delete": "Delete"
+    },
+    "discount": {
+      "warn": "Warning",
+      "title": "Use discount coupon?",
+      "description": "Add your coupon in the field below",
+      "couponCode": "Coupon code",
+      "close": "Close",
+      "apply": "Apply"
+    }
+  }
+}

@@ -13,86 +13,77 @@ import {
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu';
 import { FlaskConical, PaintBucket, Palette } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export function NavigationSubMenu() {
+  const t = useTranslations('Header.navigationSubmenu');
+
   const aditivosComponents = [
     {
-      title: 'A base de água',
+      title: t('additive.waterBased.title'),
       href: "/product-list?category=Aditivos&subCategory=Base d'água",
-      description:
-        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+      description: t('additive.waterBased.description'),
     },
     {
-      title: 'Plastisol',
+      title: t('additive.plastisol.title'),
       href: '/product-list?category=Aditivos&subCategory=Plastisol',
-      description:
-        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+      description: t('additive.plastisol.description'),
     },
     {
-      title: 'Promoção',
+      title: t('additive.promotion.title'),
       href: '/aditivos/promocao',
-      description:
-        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+      description: t('additive.promotion.description'),
     },
     {
-      title: 'Todos',
+      title: t('additive.all.title'),
       href: '/product-list?category=Aditivos',
-      description:
-        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+      description: t('additive.all.description'),
     },
   ];
 
   const pigmentosComponents = [
     {
-      title: 'A base de água',
+      title: t('pigments.waterBased.title'),
       href: "/product-list?category=Pigmentos&subCategory=Base d'água",
-      description:
-        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+      description: t('pigments.waterBased.description'),
     },
     {
-      title: 'Plastisol',
+      title: t('pigments.plastisol.title'),
       href: '/product-list?category=Pigmentos&subCategory=Plastisol',
-      description:
-        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+      description: t('pigments.plastisol.description'),
     },
     {
-      title: 'Promoção',
+      title: t('pigments.promotion.title'),
       href: '/pigments/promocao',
-      description:
-        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+      description: t('pigments.promotion.description'),
     },
     {
-      title: 'Todos',
+      title: t('pigments.all.title'),
       href: '/product-list?category=Pigmentos',
-      description:
-        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+      description: t('pigments.all.description'),
     },
   ];
 
   const tintasComponents = [
     {
-      title: 'A base de água',
+      title: t('paints.waterBased.title'),
       href: "/product-list?category=Tintas&subCategory=Base d'água",
-      description:
-        'Explore nossa gama de produtos químicos com foco em soluções à base de água. Descubra compostos, reações e aplicações para atender diversas necessidades industriais e científicas.',
+      description: t('paints.waterBased.description'),
     },
     {
-      title: 'Plastisol',
+      title: t('paints.plastisol.title'),
       href: '/product-list?category=Tintas&subCategory=Plastisol',
-      description:
-        'Conheça o plastisol, um composto químico versátil usado em revestimentos e materiais flexíveis. Descubra propriedades e usos por meio de uma pré-visualização destacada.',
+      description: t('paints.plastisol.description'),
     },
     {
-      title: 'Promoção',
+      title: t('paints.promotion.title'),
       href: '/aditivos/promocao',
-      description:
-        'Acompanhe promoções de produtos químicos com um indicador visual de progresso. Explore ofertas e descontos de forma informativa e interativa.',
+      description: t('paints.promotion.description'),
     },
     {
-      title: 'Todos',
+      title: t('paints.all.title'),
       href: '/product-list?category=Tintas',
-      description:
-        'Explore nossa lista completa de produtos químicos de forma eficiente usando a área de rolagem. Descubra informações sobre diferentes compostos de maneira fácil e rápida.',
+      description: t('paints.all.description'),
     },
   ];
 
@@ -106,7 +97,7 @@ export function NavigationSubMenu() {
                 <FlaskConical size={20} />
               </div>
               <span>
-                <p className="text-xs sm:text-base">Aditivos</p>
+                <p className="text-xs sm:text-base">{t('additive.title')}</p>
               </span>
             </div>
           </NavigationMenuTrigger>
@@ -132,7 +123,7 @@ export function NavigationSubMenu() {
                 <Palette size={20} />
               </div>
               <span>
-                <p className="text-xs sm:text-base">Pigmentos</p>
+                <p className="text-xs sm:text-base">{t('pigments.title')}</p>
               </span>
             </div>
           </NavigationMenuTrigger>
@@ -158,7 +149,7 @@ export function NavigationSubMenu() {
                 <PaintBucket size={20} />
               </div>
               <span>
-                <p className="text-xs sm:text-base">Tintas</p>
+                <p className="text-xs sm:text-base">{t('paints.title')}</p>
               </span>
             </div>
           </NavigationMenuTrigger>

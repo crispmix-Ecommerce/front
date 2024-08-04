@@ -4,6 +4,7 @@ import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { CardProduct } from '@/components/layout/shared/card';
 import Product from '@/models/Product';
+import { useTranslations } from 'next-intl';
 interface ProductOption {
   price: number;
   unitMeasure: string;
@@ -26,6 +27,8 @@ export default function ProductList() {
 }
 
 function ProductListContent() {
+  const t = useTranslations('ProductList');
+
   const searchParams = useSearchParams();
   const category = searchParams.get('category') || '';
   const subCategory = searchParams.get('subCategory') || '';
@@ -82,8 +85,8 @@ function ProductListContent() {
 
   return (
     <section className="flex flex-col items-center p-16 gap-4">
-      {loading && <div>Loading...</div>}
-      {error && <div>Error: {error}</div>}
+      {loading && <div>{t('loading')}</div>}
+      {error && <div>{t('error', { error })}</div>}
 
       <div className="flex flex-wrap justify-center gap-5">
         {products.map((product, index) => (

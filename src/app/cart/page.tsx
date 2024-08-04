@@ -6,6 +6,7 @@ import { CartCheckouComponent } from './components/cart-checkout-component';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { cartDB } from '@/db/db.cart';
 import { CartDBService } from '@/service/cache/cart_db.service';
+import { useTranslations } from 'next-intl';
 
 interface ProductOption {
   price: number;
@@ -21,6 +22,8 @@ interface ProductComponentProps {
 }
 
 export default function CartCheckout() {
+  const t = useTranslations('Cart');
+
   const products = useLiveQuery(() => {
     const cartService = new CartDBService();
     return cartService.getProducts();
@@ -46,7 +49,7 @@ export default function CartCheckout() {
               ></ProducCounterItem>
             ))
           ) : (
-            <p>Não há itens adicionados ao carrinho ainda :C</p>
+            <p>{t('cartEmpty')}</p>
           )}
         </div>
         <div className="lg:w-1/3 m-4 py-2">

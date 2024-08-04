@@ -1,6 +1,7 @@
 import { cartDB } from '@/db/db.cart';
 import { CartDBService } from '@/service/cache/cart_db.service';
 import { AwardIcon, InfoIcon, Rocket, ShieldIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { ChangeEvent, useState } from 'react';
 
@@ -19,6 +20,7 @@ export function ProductCheckoutComponent({
   price,
   urlImg,
 }: ProductCheckoutComponentProps) {
+  const t = useTranslations('Product.checkout');
   const [count, setCount] = useState(1);
 
   const handleCountChange = (e: ChangeEvent<HTMLSelectElement>) => {
@@ -40,15 +42,19 @@ export function ProductCheckoutComponent({
     });
   };
 
+  const maxQuantity = 50;
+
   return (
     <div>
       <div className="flex flex-col justify-center">
-        <p className="py-4">Envio para todo o país</p>
+        <p className="py-4">{t('shipping')}</p>
         <div>
           <div className="flex justify-between ">
             <div>
-              <p className="text-lg font-bold">Quantidade</p>
-              <p className="text-sm">Máximo de 50 unidades</p>
+              <p className="text-lg font-bold">{t('quantity')}</p>
+              <p className="text-sm">
+                {t('maxQuantity', { max: maxQuantity })}
+              </p>
             </div>
             <select
               id="count"
@@ -56,7 +62,7 @@ export function ProductCheckoutComponent({
               onChange={handleCountChange}
               className="border-custom-gray border-2 rounded p-2"
             >
-              {Array.from({ length: 50 }, (_, index) => (
+              {Array.from({ length: maxQuantity }, (_, index) => (
                 <option
                   key={index + 1}
                   value={index + 1}
@@ -68,15 +74,11 @@ export function ProductCheckoutComponent({
           </div>
         </div>
         <div className="flex py-6">
-          <p>
-            Para comprar em atacado, entre em contato com um de nossos
-            consultores. Você ira receber uma tabela de preços personalizada e
-            exclusiva.
-          </p>
+          <p>{t('description')}</p>
         </div>
         <div className="my-2">
           <button className="flex py-2 px-4 bg-custom-green hover:bg-blue-500 text-white font-bold rounded">
-            <p className="mr-2"> Entrar em contato</p>
+            <p className="mr-2"> {t('contact')}</p>
             <img
               src="/zapicon.png"
               alt="Whatsapp icon"
@@ -84,11 +86,9 @@ export function ProductCheckoutComponent({
             />
           </button>
         </div>
-        <h3 className="pt-4 text-lg font-bold ">Estoque disponível</h3>
+        <h3 className="pt-4 text-lg font-bold ">{t('stock')}</h3>
         <div className="flex justify-between">
-          <h3 className="text-custom-green pb-4">
-            Entrega turbo para Vale do Itajaí
-          </h3>
+          <h3 className="text-custom-green pb-4">{t('shippingTurbo')}</h3>
           <div className="flex">
             <div className="text-custom-orange ml-2">
               <Rocket
@@ -96,7 +96,7 @@ export function ProductCheckoutComponent({
                 aria-hidden="true"
               />
             </div>
-            <p className="font-bold italic">TURBO</p>
+            <p className="font-bold italic">{t('turbo')}</p>
           </div>
           <div className=" text-custom-blue">
             <InfoIcon
@@ -112,14 +112,14 @@ export function ProductCheckoutComponent({
             onClick={addToStorage}
             className="w-full bg-blue-400 hover:bg-blue-500 text-white font-bold py-4 rounded"
           >
-            Comprar
+            {t('buy')}
           </button>
         </Link>
         <button
           onClick={addToStorage}
           className="w-full bg-custom-blue  hover:bg-blue-500 text-white font-bold py-4 px-4 rounded"
         >
-          Adicionar no carrinho
+          {t('buyMore')}
         </button>
         <div className="flex text-blue-900">
           <div>
@@ -128,7 +128,7 @@ export function ProductCheckoutComponent({
               aria-hidden="true"
             />
           </div>
-          <p className="ml-2">Compra garantida por CRISPMIX LTDA.</p>
+          <p className="ml-2">{t('guarantedPurchase')}</p>
         </div>
         <div className="flex pb-6  text-blue-900">
           <div>
@@ -137,7 +137,7 @@ export function ProductCheckoutComponent({
               aria-hidden="true"
             />
           </div>
-          <p className="ml-2">3 meses de garantia de fábrica.</p>
+          <p className="ml-2">{t('guarantee')}</p>
         </div>
       </div>
     </div>

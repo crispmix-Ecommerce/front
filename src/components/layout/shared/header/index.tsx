@@ -15,6 +15,7 @@ import {
 import { ShoppingCartIcon } from 'lucide-react';
 import Product from '@/models/Product';
 import CartComponent from './components/cartComponent';
+import { useTranslations } from 'next-intl';
 
 interface ProductOption {
   price: number;
@@ -30,6 +31,7 @@ interface ProductData {
 }
 
 export default function Header() {
+  const t = useTranslations('Header');
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<Product[]>([]);
   const [isInputFocused, setIsInputFocused] = useState(false);
@@ -102,7 +104,7 @@ export default function Header() {
             <div className="w-full max-w-[768px] flex justify-center relative">
               <Command className="border-4 rounded-t-lg border-white">
                 <CommandInput
-                  placeholder="Pesquise produtos aqui"
+                  placeholder={t('searchPlaceholder')}
                   value={searchQuery}
                   onChangeCapture={handleSearchChange}
                   onFocus={() => handleSearchFocus(true)}
@@ -112,7 +114,7 @@ export default function Header() {
                   {searchResults.length === 0 &&
                     isInputFocused &&
                     searchQuery.trim() !== '' && (
-                      <CommandEmpty>No results found.</CommandEmpty>
+                      <CommandEmpty>t{'empty'}</CommandEmpty>
                     )}
                   {searchResults.length > 0 && (
                     <CommandGroup heading="Produtos">
@@ -154,7 +156,7 @@ export default function Header() {
                 </CommandList>
               </Command>
             </div>
-            <CartComponent></CartComponent>
+            <CartComponent title={t('cart')}></CartComponent>
           </div>
         </div>
       </div>
